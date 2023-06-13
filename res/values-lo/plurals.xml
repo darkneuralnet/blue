@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">​ກະ​ລຸ​ນາ​ເຮັດ​ສຳ​ເລັດ​ການ​ປ່ອຍ %d ​ຈາກ​ແຜນ​ທີ່ ເພື່ອ​ປົດ​ລັອກ​ເນັ​ສ​ຫຼາຍກວ່າ.</item>
+        <item quantity="one">ກະ​ລຸ​ນາ​ເຮັດ​ສຳ​ເລັດການ​ປ່ອຍ %d ຈາກ​ແຜນ​ທີ່​ເພື່ອປົ​ດ​ລັອກ​ເນັ​ສ​ຫຼາຍກວ່າ.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird ຄຣູສເຊີ</item>
+        <item quantity="one">Bird ເຮືອນຳທ່ຽວ</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds ແຄັບເຈີແລ້ວ</item>
+        <item quantity="one">%d Bird ແຄັບເຈີແລ້ວ</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds ເກັບເງິນແລ້ວ</item>
+        <item quantity="zero">0 Birds ເກັບເງິນແລ້ວ</item>
+        <item quantity="one">1 Bird ເກັບເງິນແລ້ວ</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">ພົບ %d ບັນ​ຫາ</item>
+        <item quantity="one">ພົບ %d ບັນຫາ</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">ສະແກນ %d ບໍ່ສຳເລັດ</item>
+        <item quantity="one">ສະແກນ %d ບໍ່ສຳເລັດ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">ໃນ %d ມື້</item>
+        <item quantity="one">ມື້ອື່ນ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">ໃນ %d ຊົ່ວໂມງ</item>
+        <item quantity="one">ໃນ 1 ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">ໃນ %d ນທ</item>
+        <item quantity="one">ໃນ 1 ນາທີ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">ໃນ %d ວິ</item>
+        <item quantity="one">ໃນ 1 ວິ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d ມື້ກ່ອນໜ້ານີ້</item>
+        <item quantity="one">ມື້ວານນີ້</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d ຊົ່ວໂມງກ່ອນໜ້ານີ້</item>
+        <item quantity="one">1 ຊົ່ວໂມງກ່ອນ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d ນທ ກ່ອນໜ້ານີ້</item>
+        <item quantity="one">1 ນທ ກ່ອນ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d ວິ ກ່ອນໜ້ານີ້</item>
+        <item quantity="one">1 ວິນາທີກ່ອນ</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+        <item quantity="one">1 ຊົ່ວ​ໂມງ</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d ນາທີ</item>
+        <item quantity="one">1 ນາ​ທີ</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d ວິນາທີ</item>
+        <item quantity="one">1 ວິນາທີ</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">ໃນ %d ມື້</item>
+        <item quantity="one">ມື້ອື່ນ</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">ໃນ %d ຊົ່ວໂມງ</item>
+        <item quantity="one">ໃນ 1 ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">ໃນ %d ນາທີ</item>
+        <item quantity="one">ໃນ 1 ນາທີ</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">ໃນ %d ວິ​ນາ​ທີ</item>
+        <item quantity="one">ໃນອີກ 1 ວິນາທີ</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d ມື້​ກ່ອນ</item>
+        <item quantity="one">ມື້​ວານ​ນີ້</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d ຊົ່ວໂມງທີ່ຜ່ານມາ</item>
+        <item quantity="one">1 ຊົ່ວໂມງກ່ອນໜ້ານີ້</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d ນາ​ທີ​ທີ່ຜ່ານມາ</item>
+        <item quantity="one">1 ນາທີກ່ອນໜ້ານີ້</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d ວິນາທີກ່ອນໜ້ານີ້</item>
+        <item quantity="one">1 ວິນາທີກ່ອນ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">ທ່ານຕ້ອງການເຮັດ %d ພາຫະນະທີ່ສະແກນສົ່ງສຽງຮ້ອງຈຽບບໍ?</item>
+        <item quantity="one">ທ່ານຕ້ອງການເຮັດ %d ພາຫະນະທີ່ສະແກນສົ່ງສຽງຮ້ອງຈຽບບໍ?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">ບັນທຶກອາໄຫຼ່ໃໝ່ %d ໄວ້ແລ້ວ.</item>
+        <item quantity="one">ບັນທຶກອາໄຫຼ່ໃໝ່ %d ໄວ້ແລ້ວ.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s ລົດຈັກນ້ອຍ</item>
+        <item quantity="one">%s ລົດຈັກນ້ອຍ</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s ສະກຸດເຕີ້</item>
+        <item quantity="one">%s ສະກຸດເຕີ້</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">ໝົດອາຍຸໃນ %d ມື້</item>
+        <item quantity="one">ໝົດອາຍຸໃນ %d ມື້</item>
+        <item quantity="two">ໝົດອາຍຸໃນ %d ມື້</item>
+        <item quantity="few">ໝົດອາຍຸໃນ %d ມື້</item>
+        <item quantity="many">ໝົດອາຍຸໃນ %d ມື້</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds ເລືອກແລ້ວ</item>
+        <item quantity="one">%d Bird ເລືອກແລ້ວ</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">​ເບິ່ງ​ຄື​ວ່າ​ຄຳ​ສັ່ງ​ຊື້​ນີ້​ຂາດ​ຫາຍ​ໄປ %d ​ລາຍ​ການ. ​ເພື່ອ​ປະ​ມວນ​ຜົນ​ຄຳ​ສັ່ງ​ຊື້ SKU ນີ້ດ​ຽວ​ນີ້, ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​ແຈ້ງ​ຝ່າຍ​ສະ​ໜອງ​ສິນ​ຄ້າ​ກ່ຽວ​ກັບ​ລາຍ​ການ​ທີ່​ຂາດ​ຫາຍ​ໄປ​ໂດຍ​ການ​ເລີ່ມ​ຕົ້ນ​ກວດ​ສອບ.</item>
+        <item quantity="one">​ເບິ່ງ​ຄື​ວ່າ​ຄຳ​ສັ່ງ​ຊື້​ນີ້​ຂາດ​ຫາຍ​ໄປ %d ​ລາຍ​ການ. ​ເພື່ອ​ປະ​ມວນ​ຜົນ​ຄຳ​ສັ່ງ​ຊື້ SKU ນີ້ດ​ຽວ​ນີ້, ທ່ານ​ຈຳ​ເປັນ​ຕ້ອງ​ແຈ້ງ​ຝ່າຍ​ສະ​ໜອງ​ສິນ​ຄ້າ​ກ່ຽວ​ກັບ​ລາຍ​ການ​ທີ່​ຂາດ​ຫາຍ​ໄປ​ໂດຍ​ການ​ເລີ່ມ​ຕົ້ນ​ກວດ​ສອບ.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(​ໄວ​ກວ່າ %d ວັນ)</item>
+        <item quantity="one">(​ໄວ​ກວ່າ %d ວັນ)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(​ຊ້າກວ່າ %d ວັນ)</item>
+        <item quantity="one">(​ຊ້າກວ່າ %d ວັນ)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(​ໄວ​ກວ່າ %d ຊົ່​ວ​ໂມງ)</item>
+        <item quantity="one">(ໄວກວ່າ​ %d ຊົ່ວ​ໂມງ)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(​ຊ້າກວ່າ %d ຊົ່ວ​ໂມງ)</item>
+        <item quantity="one">(​ຊ້າກວ່າ %d ຊົ່​ວ​ໂມງ)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">ປ່ອຍ %d ພາຫານະ</item>
+        <item quantity="zero">ປ່ອຍ 0 ພາຫານະ</item>
+        <item quantity="one">ປ່ອຍ 1 ພາຫານະ</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">ແຄັບເຈີ %d ພາຫານະ</item>
+        <item quantity="zero">ແຄັບເຈີ 0 ພາຫານະ</item>
+        <item quantity="one">ແຄັບເຈີ 1 ພາຫານະ</item>
+    </plurals>
+</resources>

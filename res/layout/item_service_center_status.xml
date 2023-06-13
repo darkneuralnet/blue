@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:textColor="@color/primaryText" android:layout_gravity="start" android:id="@id/statusName" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/radio_button_work_order_item" android:paddingStart="@dimen/activity_horizontal_margin_small" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Caption" />
+    <co.bird.android.widget.EditTextBox android:id="@id/notes" android:layout_width="fill_parent" android:layout_height="@dimen/service_center_edit_text_height" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_horizontal_margin" android:hint="@string/service_center_status_note_hint" android:layout_marginStart="@dimen/activity_horizontal_margin_large" android:layout_marginEnd="@dimen/activity_horizontal_margin_large" />
+</LinearLayout>

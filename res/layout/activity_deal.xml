@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/animationView" android:layout_width="200.0dip" android:layout_height="200.0dip" app:lottie_autoPlay="true" app:lottie_fileName="lottie/bonusDeal/specialOffer.json" app:lottie_loop="true" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/deal_screen_offer_ends_in" style="@style/TextAppearance.Uppercase3" />
+        <co.bird.android.widget.CountdownView android:id="@id/countDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        <TextView android:id="@id/dealTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" style="@style/TextAppearance.Headline" />
+        <TextView android:id="@id/dealBody" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/TextAppearance.Caption" />
+    </LinearLayout>
+    <Button android:id="@id/claim" android:background="@color/brandAccent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_above="@id/reject" style="@style/BrandButton" />
+    <Button android:id="@id/reject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_alignParentBottom="true" style="@style/SecondaryButton" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+</RelativeLayout>

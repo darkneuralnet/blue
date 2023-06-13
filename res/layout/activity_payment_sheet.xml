@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_sheet" android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <androidx.compose.ui.platform.ComposeView android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

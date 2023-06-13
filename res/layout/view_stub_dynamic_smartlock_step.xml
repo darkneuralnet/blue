@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/step_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/step_label" android:textAllCaps="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/step_index_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/step_label" android:textAllCaps="true" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/primaryText" android:id="@id/step_instruction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/step_label" android:lineSpacingMultiplier="1.2" />
+</RelativeLayout>

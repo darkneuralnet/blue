@@ -1,0 +1,37 @@
+package p000;
+
+import java.io.IOException;
+import p000.C35916Sk1;
+/* renamed from: Ej7  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public final class C32637Ej7 implements InterfaceC34919Od3 {
+
+    /* renamed from: a */
+    public static final C32637Ej7 f7991a = new C32637Ej7();
+
+    /* renamed from: b */
+    public static final C35916Sk1 f7992b;
+
+    /* renamed from: c */
+    public static final C35916Sk1 f7993c;
+
+    static {
+        C35916Sk1.C7526b m84930a = C35916Sk1.m84930a("errorSpace");
+        F19 f19 = new F19();
+        f19.m108098a(1);
+        f7992b = m84930a.m84925b(f19.m108097b()).m84926a();
+        C35916Sk1.C7526b m84930a2 = C35916Sk1.m84930a("errorCode");
+        F19 f192 = new F19();
+        f192.m108098a(2);
+        f7993c = m84930a2.m84925b(f192.m108097b()).m84926a();
+    }
+
+    private C32637Ej7() {
+    }
+
+    @Override // p000.InterfaceC45768nb1
+    public final /* bridge */ /* synthetic */ void encode(Object obj, InterfaceC35153Pd3 interfaceC35153Pd3) throws IOException {
+        C51812xm7 c51812xm7 = (C51812xm7) obj;
+        throw null;
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/left" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="32.0sp" android:layout_gravity="center_horizontal" android:id="@id/leftTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$10" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/leftSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 Free Rides" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/middle" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="32.0sp" android:layout_gravity="center_horizontal" android:id="@id/middleTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$25" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/middleSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 Free Rides" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/right" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0">
+        <TextView android:textSize="32.0sp" android:layout_gravity="center_horizontal" android:id="@id/rightTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$50" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/rightSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2 Free Rides" />
+    </LinearLayout>
+</LinearLayout>

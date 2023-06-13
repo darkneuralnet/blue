@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Por favor, completa %d liberaciones del mapa para desbloquear más nidos.</item>
+        <item quantity="one">Por favor, completa %d liberación del mapa para desbloquear más nidos.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird Cruceros</item>
+        <item quantity="one">Bird Crucero</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds Capturados</item>
+        <item quantity="one">%d Bird Capturados</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds cargado</item>
+        <item quantity="zero">0 Birds cargado</item>
+        <item quantity="one">1 Bird cargado</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d Problemas encontrados</item>
+        <item quantity="one">%d Problema encontrado</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d escaneados han fallado</item>
+        <item quantity="one">%d escaneado ha fallado</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">dentro de %d días</item>
+        <item quantity="one">mañana</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">dentro de %d horas</item>
+        <item quantity="one">dentro de 1 hora</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">dentro de %d minutos</item>
+        <item quantity="one">dentro de 1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">dentro de %d segundos</item>
+        <item quantity="one">dentro de 1 segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">hace %d días</item>
+        <item quantity="one">Ayer</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">hace %d horas</item>
+        <item quantity="one">hace 1 hora</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">hace %d minutos</item>
+        <item quantity="one">hace 1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">hace %d segundos</item>
+        <item quantity="one">hace 1 segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">dentro de %d días</item>
+        <item quantity="one">mañana</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">"dentro de %d  horas"</item>
+        <item quantity="one">dentro de 1 hora</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">dentro de %d minutos</item>
+        <item quantity="one">dentro de 1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">dentro de %d segundos</item>
+        <item quantity="one">dentro de 1 segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">Hace %d días</item>
+        <item quantity="one">Ayer</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">Hace %d horas</item>
+        <item quantity="one">Hace 1 hora</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">Hace %d minutos</item>
+        <item quantity="one">Hace 1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">Hace %d segundos</item>
+        <item quantity="one">Hace 1 segundo</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">¿Quieres piar %d los vehículos escaneados?</item>
+        <item quantity="one">¿Quieres que %d vehículo escaneado píe (emita un sonido)?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d nueva pieza grabada.</item>
+        <item quantity="one">%d nueva pieza grabada.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s Ciclomotores</item>
+        <item quantity="one">%s Ciclomotor</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s Patinetes</item>
+        <item quantity="one">%s Patinete</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Caduca en %d días</item>
+        <item quantity="one">Caduca en %d día</item>
+        <item quantity="two">Caduca en %d días</item>
+        <item quantity="few">Caduca en %d días</item>
+        <item quantity="many">Caduca en %d días</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds seleccionados</item>
+        <item quantity="one">%d Bird seleccionados</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Parece que en este pedido faltan %d artículos. Para procesar ahora este pedido SKU, tienes que notificar a la cadena de distribución acerca de estos artículos que faltan mediante el inicio de una investigación.</item>
+        <item quantity="one">Parece que en este pedido falta el artículo %d. Para procesar ahora este pedido SKU, tienes que notificar a la cadena de distribución acerca de estos artículos que faltan mediante el inicio de una investigación.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(%d días antes)</item>
+        <item quantity="one">(%d día antes)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(%d días tarde)</item>
+        <item quantity="one">(%d día tarde)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(%d horas antes)</item>
+        <item quantity="one">(%d hora antes)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(%d hora tarde)</item>
+        <item quantity="one">(%d hora tarde)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Liberar %d Vehículos</item>
+        <item quantity="zero">Liberar 0 Vehículos</item>
+        <item quantity="one">Liberar 1 Vehículo</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Capturar %d Vehículos</item>
+        <item quantity="zero">Capturar 0 Vehículos</item>
+        <item quantity="one">Capturar 1 Vehículo</item>
+    </plurals>
+</resources>

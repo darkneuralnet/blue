@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/lightGray" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/imageCardView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quality_control_scooter_illustration_top_margin" android:layout_marginBottom="@dimen/quality_control_scooter_illustration_bottom_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/vehicleIllustration" android:layout_width="200.0dip" android:layout_height="260.0dip" />
+    </androidx.cardview.widget.CardView>
+    <Space android:id="@id/space" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="@id/imageCardView" app:layout_constraintTop_toTopOf="@id/imageCardView" />
+    <ImageView android:id="@id/pass_fail_icon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="@dimen/quality_control_pass_fail_icon_margin" android:layout_marginStart="@dimen/quality_control_pass_fail_icon_margin" android:elevation="2.0dip" app:layout_constraintBottom_toBottomOf="@id/space" app:layout_constraintEnd_toEndOf="@id/space" app:layout_constraintStart_toStartOf="@id/space" app:layout_constraintTop_toTopOf="@id/space" />
+</androidx.constraintlayout.widget.ConstraintLayout>

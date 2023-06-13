@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Välj antal Birds som är inblandade</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Gasreglage</item>
+        <item>Broms</item>
+        <item>Lampor</item>
+        <item>Ringklocka</item>
+        <item>Säkerställ funktion av reparerade skador</item>
+        <item>Kvalitetskontroll (känns det säkert)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Avslöja låskombination.</item>
+        <item>Ange kombinationen på låset.</item>
+        <item>Tryck på knappen ovanpå låset för att öppna.</item>
+        <item>Sätt fast låset på Birdens hals igen.</item>
+    </string-array>
+</resources>

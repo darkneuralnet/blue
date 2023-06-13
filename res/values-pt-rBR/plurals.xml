@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Conclua %d liberações do mapa para desbloquear mais ninhos.</item>
+        <item quantity="one">Conclua %d liberação do mapa para desbloquear mais ninhos.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird cruisers</item>
+        <item quantity="one">Bird cruiser</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds Capturadas</item>
+        <item quantity="one">%d Bird Capturadas</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds carregadas</item>
+        <item quantity="zero">0 Birds carregadas</item>
+        <item quantity="one">1 Bird carregada</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d problemas encontrados</item>
+        <item quantity="one">%d problema encontrado</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d escaneamentos malsucedidos</item>
+        <item quantity="one">A digitalização de %d falhou</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novas notificações</item>
+        <item quantity="one">%d nova notificação</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Deseja soar o alarme de pio de %d veículos escaneados?</item>
+        <item quantity="one">Deseja soar o alarme de pio de %d veículos escaneados?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d novas peças registradas.</item>
+        <item quantity="one">%d novas peças registradas.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s mobiletes</item>
+        <item quantity="one">%s mobilete</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s scooters</item>
+        <item quantity="one">%s scooter</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Expira em %d dias</item>
+        <item quantity="one">Expira em %d dia</item>
+        <item quantity="two">Expira em %d dias</item>
+        <item quantity="few">Expira em %d dias</item>
+        <item quantity="many">Expira em %d dias</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds selecionadas</item>
+        <item quantity="one">%d Bird selecionadas</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Parece que estão faltando %d itens nesse pedido. Para processar esse Pedido de SKUs agora, você precisa notificar a Cadeia de Suprimentos sobre esses itens ausentes e iniciar uma investigação.</item>
+        <item quantity="one">Parece que está faltando %d item nesse pedido. Para processar esse Pedido de SKUs agora, você precisa notificar a Cadeia de Suprimentos sobre esses itens ausentes e iniciar uma investigação.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(%d dias mais cedo)</item>
+        <item quantity="one">(%d dia mais cedo)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(%d dias mais tarde)</item>
+        <item quantity="one">(%d dia mais tarde)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(%d horas mais cedo)</item>
+        <item quantity="one">(%d hora mais cedo)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(%d horas mais tarde)</item>
+        <item quantity="one">(%d hora mais tarde)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Liberar %d veículos</item>
+        <item quantity="zero">Liberar 0 veículos</item>
+        <item quantity="one">Liberar 1 veículo</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Capturar %d veículos</item>
+        <item quantity="zero">Capturar 0 veículos</item>
+        <item quantity="one">Capturar 1 veículo</item>
+    </plurals>
+</resources>

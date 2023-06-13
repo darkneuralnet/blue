@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <Button android:id="@id/rideNow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/ride_pass_ride_now_button_title" android:layout_alignParentBottom="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" style="@style/PrimaryButton" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+</RelativeLayout>

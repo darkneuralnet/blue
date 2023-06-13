@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/subtleGray" android:layout_width="fill_parent" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/birdBackground" android:layout_width="104.0dip" android:layout_height="104.0dip" android:layout_marginTop="@dimen/activity_vertical_margin_large" android:src="@color/lightGray" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="@id/card" app:layout_constraintStart_toStartOf="@id/card" app:layout_constraintTop_toTopOf="parent" app:shapeAppearanceOverlay="@style/ShapeableCircle" />
+    <ImageView android:id="@id/birdImage" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="22.0dip" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="@id/birdBackground" app:layout_constraintEnd_toEndOf="@id/birdBackground" app:layout_constraintStart_toStartOf="@id/birdBackground" app:layout_constraintTop_toTopOf="@id/birdBackground" />
+    <androidx.cardview.widget.CardView android:id="@id/card" android:layout_width="112.0dip" android:layout_height="wrap_content" app:cardCornerRadius="4.0dip" app:contentPaddingBottom="8.0dip" app:contentPaddingTop="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/birdImage">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_horizontal" android:id="@id/birdCode" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Uppercase" />
+            <TextView android:gravity="center_horizontal" android:id="@id/model" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Caption" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

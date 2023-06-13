@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:id="@id/lastLocated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/darkerGray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/operator_located" android:layout_below="@id/lastLocated" android:layout_centerHorizontal="true" android:layout_marginStart="5.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:id="@id/lastRidden" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/darkerGray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/operator_ridden" android:layout_below="@id/lastRidden" android:layout_centerHorizontal="true" android:layout_marginStart="5.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/status" android:background="@color/greenish" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bird_action_status_ready" android:layout_centerHorizontal="true" android:textAllCaps="true" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" />
+            <TextView android:textColor="@color/darkerGray" android:id="@id/statusTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/operator_status" android:layout_below="@id/status" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

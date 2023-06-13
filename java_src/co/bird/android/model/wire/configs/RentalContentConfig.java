@@ -1,0 +1,122 @@
+package co.bird.android.model.wire.configs;
+
+import co.bird.android.model.LegacyRepairType;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
+import kotlin.Metadata;
+import kotlin.collections.CollectionsKt__CollectionsKt;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.Intrinsics;
+@Metadata(m28433d1 = {"\u0000*\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\b\r\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\b\u0086\b\u0018\u00002\u00020\u0001B3\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0005\u001a\u00020\u0003\u0012\u000e\b\u0002\u0010\u0006\u001a\b\u0012\u0004\u0012\u00020\u00030\u0007¢\u0006\u0002\u0010\bJ\t\u0010\u000f\u001a\u00020\u0003HÆ\u0003J\t\u0010\u0010\u001a\u00020\u0003HÆ\u0003J\t\u0010\u0011\u001a\u00020\u0003HÆ\u0003J\u000f\u0010\u0012\u001a\b\u0012\u0004\u0012\u00020\u00030\u0007HÆ\u0003J7\u0010\u0013\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u00032\b\b\u0002\u0010\u0005\u001a\u00020\u00032\u000e\b\u0002\u0010\u0006\u001a\b\u0012\u0004\u0012\u00020\u00030\u0007HÆ\u0001J\u0013\u0010\u0014\u001a\u00020\u00152\b\u0010\u0016\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\u0017\u001a\u00020\u0018HÖ\u0001J\t\u0010\u0019\u001a\u00020\u0003HÖ\u0001R\u0016\u0010\u0005\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\t\u0010\nR\u001c\u0010\u0006\u001a\b\u0012\u0004\u0012\u00020\u00030\u00078\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\fR\u0016\u0010\u0004\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\r\u0010\nR\u0011\u0010\u0002\u001a\u00020\u0003¢\u0006\b\n\u0000\u001a\u0004\b\u000e\u0010\n¨\u0006\u001a"}, m28432d2 = {"Lco/bird/android/model/wire/configs/RentalContentConfig;", "", "paymentFinePrint", "", "menuItemLabel", "introHeader", "introItemList", "", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V", "getIntroHeader", "()Ljava/lang/String;", "getIntroItemList", "()Ljava/util/List;", "getMenuItemLabel", "getPaymentFinePrint", "component1", "component2", "component3", "component4", "copy", "equals", "", LegacyRepairType.OTHER_KEY, "hashCode", "", "toString", "model-wire_release"}, m28431k = 1, m28430mv = {1, 8, 0}, m28428xi = 48)
+/* loaded from: classes4.dex */
+public final class RentalContentConfig {
+    @JsonProperty("intro_header")
+    @InterfaceC41208ft5("intro_header")
+    private final String introHeader;
+    @JsonProperty("intro_item_list")
+    @InterfaceC41208ft5("intro_item_list")
+    private final List<String> introItemList;
+    @JsonProperty("menu_item_label")
+    @InterfaceC41208ft5("menu_item_label")
+    private final String menuItemLabel;
+    private final String paymentFinePrint;
+
+    public RentalContentConfig() {
+        this(null, null, null, null, 15, null);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static /* synthetic */ RentalContentConfig copy$default(RentalContentConfig rentalContentConfig, String str, String str2, String str3, List list, int i, Object obj) {
+        if ((i & 1) != 0) {
+            str = rentalContentConfig.paymentFinePrint;
+        }
+        if ((i & 2) != 0) {
+            str2 = rentalContentConfig.menuItemLabel;
+        }
+        if ((i & 4) != 0) {
+            str3 = rentalContentConfig.introHeader;
+        }
+        if ((i & 8) != 0) {
+            list = rentalContentConfig.introItemList;
+        }
+        return rentalContentConfig.copy(str, str2, str3, list);
+    }
+
+    public final String component1() {
+        return this.paymentFinePrint;
+    }
+
+    public final String component2() {
+        return this.menuItemLabel;
+    }
+
+    public final String component3() {
+        return this.introHeader;
+    }
+
+    public final List<String> component4() {
+        return this.introItemList;
+    }
+
+    public final RentalContentConfig copy(String paymentFinePrint, String menuItemLabel, String introHeader, List<String> introItemList) {
+        Intrinsics.checkNotNullParameter(paymentFinePrint, "paymentFinePrint");
+        Intrinsics.checkNotNullParameter(menuItemLabel, "menuItemLabel");
+        Intrinsics.checkNotNullParameter(introHeader, "introHeader");
+        Intrinsics.checkNotNullParameter(introItemList, "introItemList");
+        return new RentalContentConfig(paymentFinePrint, menuItemLabel, introHeader, introItemList);
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof RentalContentConfig) {
+            RentalContentConfig rentalContentConfig = (RentalContentConfig) obj;
+            return Intrinsics.areEqual(this.paymentFinePrint, rentalContentConfig.paymentFinePrint) && Intrinsics.areEqual(this.menuItemLabel, rentalContentConfig.menuItemLabel) && Intrinsics.areEqual(this.introHeader, rentalContentConfig.introHeader) && Intrinsics.areEqual(this.introItemList, rentalContentConfig.introItemList);
+        }
+        return false;
+    }
+
+    public final String getIntroHeader() {
+        return this.introHeader;
+    }
+
+    public final List<String> getIntroItemList() {
+        return this.introItemList;
+    }
+
+    public final String getMenuItemLabel() {
+        return this.menuItemLabel;
+    }
+
+    public final String getPaymentFinePrint() {
+        return this.paymentFinePrint;
+    }
+
+    public int hashCode() {
+        return (((((this.paymentFinePrint.hashCode() * 31) + this.menuItemLabel.hashCode()) * 31) + this.introHeader.hashCode()) * 31) + this.introItemList.hashCode();
+    }
+
+    public String toString() {
+        String str = this.paymentFinePrint;
+        String str2 = this.menuItemLabel;
+        String str3 = this.introHeader;
+        List<String> list = this.introItemList;
+        return "RentalContentConfig(paymentFinePrint=" + str + ", menuItemLabel=" + str2 + ", introHeader=" + str3 + ", introItemList=" + list + ")";
+    }
+
+    public RentalContentConfig(String paymentFinePrint, String menuItemLabel, String introHeader, List<String> introItemList) {
+        Intrinsics.checkNotNullParameter(paymentFinePrint, "paymentFinePrint");
+        Intrinsics.checkNotNullParameter(menuItemLabel, "menuItemLabel");
+        Intrinsics.checkNotNullParameter(introHeader, "introHeader");
+        Intrinsics.checkNotNullParameter(introItemList, "introItemList");
+        this.paymentFinePrint = paymentFinePrint;
+        this.menuItemLabel = menuItemLabel;
+        this.introHeader = introHeader;
+        this.introItemList = introItemList;
+    }
+
+    public /* synthetic */ RentalContentConfig(String str, String str2, String str3, List list, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? "" : str, (i & 2) != 0 ? "" : str2, (i & 4) != 0 ? "" : str3, (i & 8) != 0 ? CollectionsKt__CollectionsKt.emptyList() : list);
+    }
+}

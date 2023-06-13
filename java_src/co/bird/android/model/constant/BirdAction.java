@@ -1,0 +1,45 @@
+package co.bird.android.model.constant;
+
+import kotlin.Metadata;
+@Metadata(m28433d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b#\b\u0086\u0001\u0018\u00002\b\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u0006\u0010\u0003\u001a\u00020\u0004j\u0002\b\u0005j\u0002\b\u0006j\u0002\b\u0007j\u0002\b\bj\u0002\b\tj\u0002\b\nj\u0002\b\u000bj\u0002\b\fj\u0002\b\rj\u0002\b\u000ej\u0002\b\u000fj\u0002\b\u0010j\u0002\b\u0011j\u0002\b\u0012j\u0002\b\u0013j\u0002\b\u0014j\u0002\b\u0015j\u0002\b\u0016j\u0002\b\u0017j\u0002\b\u0018j\u0002\b\u0019j\u0002\b\u001aj\u0002\b\u001bj\u0002\b\u001cj\u0002\b\u001dj\u0002\b\u001ej\u0002\b\u001fj\u0002\b j\u0002\b!j\u0002\b\"j\u0002\b#j\u0002\b$j\u0002\b%j\u0002\b&¨\u0006'"}, m28432d2 = {"Lco/bird/android/model/constant/BirdAction;", "", "(Ljava/lang/String;I)V", "isMechanic", "", "MARK_MISSING", "CANNOT_ACCESS", "MARK_FIXED", "MARK_DAMAGED", "MARK_FOUND", "MARK_LOST", "CAPTURE", "RELEASE", "UNLOCK", "LOCK", "ALARM", "CHIRP_ALARM", "ALARM_ON", "ALARM_OFF", "START_CHARGE", "COMPLETE_CHARGE", "CANCEL_TASK", "DAMAGED_CHARGE", "REPAIR", "START_REPAIR", "CONTINUE_REPAIR", "REPORT_FRAUD", "ORDER_SPARE_PARTS", "VALIDATE_RELEASE", "SEARCH_NEARBY", "NO_ACTION", "GET_CODE", "WAKE_BIRD", "SLEEP_BIRD", "REMOVE_FROM_LIST", "UNLOCK_SMARTLOCK", "REPLACE_PHYSICAL_LOCK", "FLIGHT_SHEET", "UNKNOWN", "model-constant"}, m28431k = 1, m28430mv = {1, 8, 0}, m28428xi = 48)
+/* loaded from: classes4.dex */
+public enum BirdAction {
+    MARK_MISSING,
+    CANNOT_ACCESS,
+    MARK_FIXED,
+    MARK_DAMAGED,
+    MARK_FOUND,
+    MARK_LOST,
+    CAPTURE,
+    RELEASE,
+    UNLOCK,
+    LOCK,
+    ALARM,
+    CHIRP_ALARM,
+    ALARM_ON,
+    ALARM_OFF,
+    START_CHARGE,
+    COMPLETE_CHARGE,
+    CANCEL_TASK,
+    DAMAGED_CHARGE,
+    REPAIR,
+    START_REPAIR,
+    CONTINUE_REPAIR,
+    REPORT_FRAUD,
+    ORDER_SPARE_PARTS,
+    VALIDATE_RELEASE,
+    SEARCH_NEARBY,
+    NO_ACTION,
+    GET_CODE,
+    WAKE_BIRD,
+    SLEEP_BIRD,
+    REMOVE_FROM_LIST,
+    UNLOCK_SMARTLOCK,
+    REPLACE_PHYSICAL_LOCK,
+    FLIGHT_SHEET,
+    UNKNOWN;
+
+    public final boolean isMechanic() {
+        return BirdActionKt.oneOf(this, CONTINUE_REPAIR, START_REPAIR, COMPLETE_CHARGE, START_CHARGE);
+    }
+}

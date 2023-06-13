@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/closeButton" android:background="@drawable/ic_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/identification_activity_title" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" style="@style/TextAppearance.Headline" />
+    </LinearLayout>
+    <View android:background="@color/birdNewRoad" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/header" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_above="@id/divider" android:layout_below="@id/header" />
+    <View android:id="@id/divider" android:background="@color/birdGray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="16.0dip" android:layout_above="@id/alternateIdButton" android:elevation="8.0dip" app:elevation="8.0dip" />
+    <Button android:id="@id/alternateIdButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/driver_license_alternate_id" android:layout_above="@id/submitButton" android:layout_marginHorizontal="16.0dip" style="@style/SecondaryButton" />
+    <Button android:id="@id/submitButton" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/manual_entry_verify_id_titlecased" android:layout_above="@id/buffer" android:layout_marginHorizontal="16.0dip" style="@style/PrimaryButton" />
+    <View android:id="@id/buffer" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

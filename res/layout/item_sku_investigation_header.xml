@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/headerLabel" android:padding="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sku_investigation_header" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Headline2" />
+    <TextView android:id="@id/sectionLabel" android:padding="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sku_investigation_items_missing_header" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/headerLabel" style="@style/TextAppearance.Caption.Bold" />
+</androidx.constraintlayout.widget.ConstraintLayout>

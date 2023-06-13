@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginHorizontal="28.0dip" style="@style/TextAppearance.Caption.Bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

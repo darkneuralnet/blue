@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    <com.google.android.material.appbar.AppBarLayout android:orientation="vertical" android:id="@id/appbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:elevation="0.0dip">
+        <co.bird.android.feature.fleetstatus.kpi.views.SquareFrameLayout android:orientation="vertical" android:id="@id/chartFrame" android:background="@drawable/flat_card_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/predictionButton" android:background="@drawable/prediction_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="37.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="37.0dip" android:alpha="0.0" android:stateListAnimator="@animator/flat_button_anim" android:layout_marginHorizontal="37.0dip">
+                <TextView android:gravity="center_horizontal" android:id="@id/predictedStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fleet_status_predicted_status" android:layout_weight="1.0" style="@style/TextAppearance.Caption" />
+                <View android:background="@color/secondaryBG" android:layout_width="1.0dip" android:layout_height="24.0dip" />
+                <TextView android:textColor="@color/brandAccent" android:gravity="center_horizontal" android:id="@id/backToCurrent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fleet_status_back_to_current" android:layout_weight="1.0" style="@style/TextAppearance.Caption" />
+            </LinearLayout>
+            <co.bird.android.widget.PieChart android:layout_gravity="center_horizontal" android:id="@id/pieChart" android:layout_width="wrap_content" android:layout_height="fill_parent" app:maxStrokeRatio="0.67" />
+        </co.bird.android.feature.fleetstatus.kpi.views.SquareFrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.cardview.widget.CardView android:id="@id/predictionsFrame" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/birdSubtleGray" app:cardElevation="0.0dip" app:layout_scrollFlags="scroll">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/predictions" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+    </androidx.cardview.widget.CardView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

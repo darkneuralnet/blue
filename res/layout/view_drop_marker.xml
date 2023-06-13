@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_pin_regular" />
+    <TextView android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_marginStart="@dimen/drop_pin_text_margin_start" style="@style/TextAppearance.Headline2" />
+</FrameLayout>

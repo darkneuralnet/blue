@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:background="@drawable/transparent_ripple" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginTop="0.0dip" android:text="@string/owned_bird_detail_contact_support_label" android:drawablePadding="12.0dip" android:drawableStart="@drawable/ic_contact" android:drawableEnd="@drawable/ic_chevron_right" android:paddingStart="@dimen/activity_horizontal_margin" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" android:drawableTint="@color/birdWhite" style="@style/OwnerModeLabel"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

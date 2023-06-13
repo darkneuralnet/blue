@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/activity_vertical_margin_large" android:tint="@color/birdNewRoad" app:srcCompat="@drawable/ic_issue_triangle" />
+    <TextView android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/issue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/TextAppearance.Headline2" />
+    <Button android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/noRepairNeeded" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/issue_status_no_repair_title" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+    <Button android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="32.0dip" android:text="@android:string/cancel" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/SecondaryButton" />
+</LinearLayout>

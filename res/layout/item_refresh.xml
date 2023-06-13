@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/refreshContainer" android:padding="8.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_alarm_clock" />
+        <co.bird.android.widget.CountdownView android:id="@id/lastUpdateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:text_resource="@string/restricted_cap_zone_sheet_last_updated_x_min_ago" app:timer_direction="count_up" style="@style/TextAppearance.Caption" />
+        <View android:background="@color/birdLightGray" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textColor="@color/brandAccent" android:id="@id/refreshButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restricted_cap_zone_tap_to_refresh" style="@style/TextAppearance.Caption" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

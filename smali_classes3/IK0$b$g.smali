@@ -1,0 +1,72 @@
+.class public final LIK0$b$g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LY94;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LIK0$b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "g"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "LY94<",
+        "LTo0;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:LlG2;
+
+
+# direct methods
+.method public constructor <init>(LlG2;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LIK0$b$g;->a:LlG2;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()LTo0;
+    .locals 1
+
+    iget-object v0, p0, LIK0$b$g;->a:LlG2;
+
+    invoke-interface {v0}, LlG2;->q2()LTo0;
+
+    move-result-object v0
+
+    invoke-static {v0}, LxZ3;->d(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LTo0;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, LIK0$b$g;->a()LTo0;
+
+    move-result-object v0
+
+    return-object v0
+.end method

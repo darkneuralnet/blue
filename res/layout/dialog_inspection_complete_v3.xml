@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonContainer" android:background="@color/primaryBG" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip">
+        <Button android:id="@id/primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+        <Button android:id="@id/secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:layout_marginBottom="@dimen/activity_vertical_margin" android:drawableStart="@drawable/ic_arrow_left" android:paddingStart="16.0dip" android:paddingEnd="40.0dip" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/SecondaryButton" />
+    </LinearLayout>
+</LinearLayout>

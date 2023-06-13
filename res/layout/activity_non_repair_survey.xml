@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBG" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/buttonContainer" android:background="@color/birdWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip">
+        <Button android:id="@id/submit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/cannot_access_submit" style="@style/PrimaryButton" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+package com.google.android.libraries.places.internal;
+/* loaded from: classes6.dex */
+public final class zzey {
+    public static zzlg zza(zzya zzyaVar) {
+        zzle zza = zzlg.zza();
+        zza.zzb(1);
+        zza.zza(zzyaVar);
+        return (zzlg) zza.zzt();
+    }
+
+    public static zzxv zzb(zzet zzetVar) {
+        int i;
+        if (zzetVar.zzc() - 1 != 1) {
+            i = 2;
+        } else {
+            i = 4;
+        }
+        zzxv zza = zzya.zza();
+        zzli zza2 = zzln.zza();
+        zza2.zza(zzetVar.zzb());
+        zza2.zzb(zzetVar.zza());
+        zza.zzb((zzln) zza2.zzt());
+        zza.zzf(true);
+        zza.zzk(i);
+        zza.zzi("2.6.0");
+        return zza;
+    }
+}

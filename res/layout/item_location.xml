@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:src="@drawable/ic_location_pin" app:layout_constraintBottom_toTopOf="@id/mapView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/OwnerModeIcon" />
+    <TextView android:id="@id/label" android:text="@string/owned_bird_detail_location_label" app:layout_constraintBottom_toTopOf="@id/details" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/OwnerModeLabel" />
+    <TextView android:id="@id/details" app:layout_constraintBottom_toTopOf="@id/mapView" app:layout_constraintEnd_toEndOf="@id/label" app:layout_constraintStart_toStartOf="@id/label" app:layout_constraintTop_toBottomOf="@id/label" style="@style/OwnerModeInfo" />
+    <com.google.android.gms.maps.MapView android:enabled="true" android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginTop="12.0dip" app:layout_constraintTop_toBottomOf="@id/details" app:liteMode="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

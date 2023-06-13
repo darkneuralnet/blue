@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/taskReminderBar" android:background="@drawable/background_white_round_rect" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/brandIcon" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/brandIcon">
+        <TextView android:textColor="@color/primaryText" android:id="@id/taskReminderBarTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Caption.Bold" />
+        <TextView android:textColor="@color/primaryText" android:id="@id/taskReminderBarBody" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Caption" />
+    </LinearLayout>
+</RelativeLayout>

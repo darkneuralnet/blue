@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="co.bird.android" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:maxSdkVersion="25" android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.APP_EMAIL"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PICK"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:host="geo"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.CREATE_DOCUMENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <package android:name="com.android.chrome"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="http"/>
+        </intent>
+        <package android:name="com.venmo"/>
+        <package android:name="com.paypal.android.p2pmobile"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.google.android.apps.maps"/>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <package android:name="com.google.ar.core"/>
+        <package android:name="androidx.test.orchestrator"/>
+        <package android:name="androidx.test.services"/>
+        <package android:name="com.google.android.apps.common.testing.services"/>
+    </queries>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <permission android:name="co.bird.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="co.bird.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="co.bird.android.App" android:networkSecurityConfig="@xml/network_security_config" android:preserveLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/LightAppTheme">
+        <profileable android:shell="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="@string/app_name" android:name="co.bird.android.app.feature.main.MainActivity" android:noHistory="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_delivery"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_delivery_setup"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_qrstuff"/>
+                <data android:path="@string/deeplink_path_qrstuff"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="/"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_navigate"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_place"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_gift"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_links"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_open"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_motmot"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_map"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:scheme="@string/deeplink_scheme_bird"/>
+                <data android:host="@string/deeplink_host_go"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_operator_map"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/ride_title_find_bird" android:name="co.bird.android.app.feature.ride.activity.RideActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/credit_free_ride_title" android:name="co.bird.android.app.feature.freeride.FreeRideActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/ride_history_title2" android:name="co.bird.android.app.feature.ridehistory.RideHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/frequent_flyer_title" android:name="co.bird.android.feature.frequentFlyer.FrequentFlyerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/ride_detail_title" android:name="co.bird.android.app.feature.ridedetail.RideDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/reservation_feedback_title" android:name="co.bird.android.app.feature.reservation.activity.ReservationFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="@string/settings_activity_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.settings.settings.SettingsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:autoVerify="true">
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_app"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_verify_email"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/credit_payment_method" android:name="co.bird.android.app.feature.prepay.PaymentMethodActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/add_card_activity_title" android:name="co.bird.android.app.feature.prepay.EnterCardActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/rental_agreement_activity_title" android:name="co.bird.android.app.feature.useragreement.UserAgreementActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/rental_agreement_activity_title" android:name="co.bird.android.app.feature.rentalagreement.RentalAgreementActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:label="@string/scan_bird_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.scanner.LegacyBirdScanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/how_to_ride_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.howtoride.HowToRideActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/how_to_ride_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.ridertutorial.RiderTutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/how_to_ride_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.ridertutorial.MultiModalRiderTutorialSelectionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_activity_title" android:name="co.bird.android.app.feature.payment.PaymentActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/destination_search_activity_title" android:name="co.bird.android.feature.destination.rider.DestinationSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/nest_location_details" android:name="co.bird.android.feature.nestdetails.NestDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/driver_license_activity_title" android:name="co.bird.android.app.feature.driver.license.v2.DriverLicenseScanV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/autopay_activity_title" android:name="co.bird.android.app.feature.autopay.AutoPayActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_detail_activity_title" android:name="co.bird.android.app.feature.birddetail.BirdDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/select_country_activity_title" android:name="co.bird.android.app.feature.i18n.SelectCountryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/nest_photo_title" android:name="co.bird.android.app.feature.nest.photo.PhotoViewActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:label="@string/login_activity_title" android:launchMode="singleTask" android:name="co.bird.android.app.feature.magiclink.LoginActivity" android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_app"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_magic_link"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <data android:scheme="@string/deeplink_scheme_https"/>
+                <data android:scheme="@string/deeplink_scheme_http"/>
+                <data android:host="@string/deeplink_host_login"/>
+                <data android:pathPrefix="@string/deeplink_path_prefix_request"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="co.bird.android.app.feature.legacyrepair.reporteddamages.ReportedDamagesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.legacyrepair.inspection.SafetyInspectionActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.legacyrepair.photo.MechanicPhotoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.legacyrepair.startrepair.StartRepairActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.legacyrepair.certifyrepair.CertifyRepairActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.testride.PotentialIssuesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.debugmode.DebugListActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_photo_header" android:name="co.bird.android.app.feature.ride.activity.RidePhotoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.charger.activity.ReportFraudActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:launchMode="singleTop" android:name="co.bird.android.app.feature.physicallock.PhysicalLockActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_search_title" android:name="co.bird.android.app.feature.searchbird.BirdSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.operator.activity.OperatorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.operator.permission.ui.OperatorPermissionsRequiredActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/wake_vehicles_title" android:name="co.bird.android.app.feature.wakebirds.WakeVehiclesActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="co.bird.android.widget.cropper.CropImageActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/complaint_activity_title" android:name="co.bird.android.app.feature.communitymode.activity.ComplaintActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="co.bird.android.app.feature.reportcomplaint.ReportActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="co.bird.android.app.feature.communitymode.activity.ComplaintLocationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bad_riding_activity_title" android:name="co.bird.android.app.feature.communitymode.activity.BadRidingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/tweaks_activity_title" android:name="co.bird.android.app.feature.settings.tweaks.TweaksActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/auth_tokens_debugger_title" android:name="co.bird.android.app.feature.settings.auth.AuthTokensDebuggerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/autopay_v2_title" android:name="co.bird.android.app.feature.autopay.AutoPayV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/report_fraud_title" android:name="co.bird.android.app.feature.charger.activity.ReportMultipleBirdsFraudActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/task_indirect_cancel_title" android:name="co.bird.android.app.feature.charger.activity.TaskCancelActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:label="@string/nearby_vehicles_activity_title" android:name="co.bird.android.app.feature.nearbybirds.NearbyBirdsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/physical_lock_new_lock_title" android:name="co.bird.android.app.feature.physicallock.ReplacePhysicalLockActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/physical_lock_lock_type" android:name="co.bird.android.app.feature.physicallock.ChoosePhysicalLockTypeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_lock_photo_pre_photo_capture_actionbar_label" android:name="co.bird.android.app.feature.ride.activity.RideEndPhotoActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/physical_lock_tutorial_activity_title" android:name="co.bird.android.app.feature.physicallock.PhysicalLockTutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/locking_and_unlocking" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockUnlockActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_unlock_activity_title" android:name="co.bird.android.app.feature.privatebirds.PrivateBirdSmartlockUnlockActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/repair_logger_activity_title" android:name="co.bird.android.feature.servicecenter.repairlogger.scan.RepairLoggerScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/repair_logger_activity_title" android:name="co.bird.android.feature.servicecenter.repairlogger.repairlist.RepairLoggerListActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/repair_logger_add_activity_title" android:name="co.bird.android.feature.servicecenter.repairlogger.addrepair.RepairLoggerAddActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/physical_lock_last_compliance_activity_title" android:name="co.bird.android.app.feature.physicallock.PhysicalLockLastComplianceActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_shop_activity_title" android:name="co.bird.android.app.feature.shop.ShopActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hibernate_wake_title" android:name="co.bird.android.app.feature.wakebirds.WakeSleepBirdsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hibernate_wake_title" android:name="co.bird.android.app.feature.wakebirds.WakeFlockProgressActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/service_center_status_activity_title" android:launchMode="singleTask" android:name="co.bird.android.feature.servicecenter.status.single.landing.ServiceProgressLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/service_center_status_activity_title" android:name="co.bird.android.feature.servicecenter.status.single.update.ServiceProgressUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/service_center_add_location_title" android:name="co.bird.android.feature.servicecenter.SelectServiceCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/service_center_scan_location" android:name="co.bird.android.feature.servicecenter.BarcodeScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_history_title" android:name="co.bird.android.app.feature.transactionhistory.TransactionHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/vehicle_tip_title" android:name="co.bird.android.app.feature.tip.VehicleTipActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_tools_launcher_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockToolsLauncherActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_tools_associate_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockAssociationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/physical_lock_tutorial_activity_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockOperatorUnlockActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_tools_associate_v2_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockAssociationV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_tools_test_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockTestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_scan_qr_activity_title" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockQrScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/smartlock_tools_standalone_associate_tool" android:name="co.bird.android.app.feature.physicallock.smartlock.SmartlockStandaloneAssociationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/service_center_bulk_status_activity_title" android:launchMode="singleTask" android:name="co.bird.android.feature.servicecenter.status.bulk.landing.BulkServiceProgressLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_bulk_update_title" android:name="co.bird.android.feature.servicecenter.status.bulk.update.BulkServiceProgressUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/long_term_rental_main_title" android:name="co.bird.android.app.feature.longterm.LongTermRentalSetupActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.ride.tutorial.RideStartedTutorialsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/id_tools_title" android:name="co.bird.android.feature.servicecenter.idtools.landing.IdToolsLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:name="co.bird.android.feature.servicecenter.idtools.identify.associate.IdToolsIdentifyAssociateActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.servicecenter.idtools.identify.dissociate.IdToolsIdentifyDissociateActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/id_tools_identify_scan_title" android:name="co.bird.android.vehiclescanner.servicecenter.scan.ScanCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateUnchanged"/>
+        <activity android:label="@string/id_tools_enter_code_title" android:name="co.bird.android.vehiclescanner.servicecenter.code.EnterCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/deal_activity_title" android:name="co.bird.android.app.feature.deals.DealActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/parking_announcement_title" android:launchMode="singleTop" android:name="co.bird.android.app.feature.parking.ParkingAnnouncementActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/parking_review_title" android:name="co.bird.android.app.feature.ridedetail.ParkingReviewActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/parking_photo_help_title" android:name="co.bird.android.app.feature.ridedetail.ParkingPhotoHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_repairs" android:name="co.bird.android.feature.servicecenter.repairs.landing.RepairsScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/owned_bird_details_title" android:name="co.bird.android.feature.ownedbirds.OwnedBirdDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_paypal" android:name="co.bird.android.app.feature.payment.PaypalSignOutActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/scan_bird_v2_activity_title" android:name="co.bird.android.app.feature.scanner.BirdScanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/scan_bird_v2_activity_title" android:name="co.bird.android.app.feature.scanner.RiderBirdScanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/whitelist" android:name="co.bird.android.feature.servicecenter.whitelist.WhitelistImeiLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/tax_information" android:name="co.bird.android.app.feature.taxinformation.TaxInformationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/cashpay_activity_title" android:name="co.bird.android.app.feature.payment.CashpayActivity" android:screenOrientation="unspecified"/>
+        <activity android:label="@string/other_possible_location_activity_title" android:name="co.bird.android.app.feature.operator.activity.OperatorSupplementMapActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.magiclink.MagicLinkIntroActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/parking_rules_actionbar_label" android:name="co.bird.android.app.feature.ride.parking.ParkingRulesActivity"/>
+        <activity android:label="@string/promotions_activity_title" android:name="co.bird.android.feature.promotions.PromotionsCenterActivity"/>
+        <activity android:label="@string/analytics_event_debugger_title" android:name="co.bird.android.app.feature.settings.analytics.AnalyticsEventDebuggerActivity"/>
+        <activity android:label="@string/analytics_event_debugger_title" android:name="co.bird.android.app.feature.settings.analytics.AnalyticsEventDetailDebuggerActivity"/>
+        <activity android:label="@string/config_explorer_title" android:name="co.bird.android.app.feature.settings.config.ConfigExplorerActivity"/>
+        <activity android:label="@string/operator_lookup_bird_title" android:name="co.bird.android.app.feature.lookupbird.LookupBirdActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/property_report_title" android:name="co.bird.android.app.feature.propertyreport.PropertyReportActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_scan_activity_label" android:name="co.bird.android.app.feature.scanner.activity.MerchantScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/activity_vehicle_pricing_title" android:name="co.bird.android.feature.vehiclepricing.VehiclePricingActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@style/NoAnimationAppTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="co.bird.android.braintree"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/flight_sheet_activity_title" android:name="co.bird.android.app.feature.flightsheet.FlightSheetActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_location_activity_title" android:name="co.bird.android.app.feature.merchant.MerchantLocationEditActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.ride.activity.RideModeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.app.feature.birdpay.tutorial.BirdPayTutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/purchase_payment_screen_header" android:name="co.bird.android.library.purchasepayment.PurchasePaymentActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_settings" android:name="co.bird.android.app.feature.settings.operator.OperatorSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:theme="@style/ZendeskDarkAppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity" android:theme="@style/ZendeskDarkAppTheme"/>
+        <activity android:exported="false" android:name="zendesk.support.request.RequestActivity" android:theme="@style/ZendeskDarkAppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity" android:theme="@style/ZendeskDarkAppTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.co.bird.android" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true"/>
+        <meta-data android:name="com.google.firebase.ml.vision.DEPENDENCIES" android:value="ocr"/>
+        <meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="ocr"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <service android:enabled="true" android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"/>
+        <service android:exported="false" android:name="co.bird.android.app.push.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="co.bird.android.app.feature.bluetooth.job.DeepSleepJobConsumer" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="co.bird.android.app.feature.locale.LocaleChangedJobConsumer" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="true" android:name="co.bird.android.app.feature.locale.LocaleChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="co.bird.android.app.feature.bluetooth.BluetoothDiscoveryReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.device.action.FOUND"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_FINISHED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.braze.BrazeBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="co.bird.android.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <provider android:authorities="co.bird.android.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:label="@string/bird_air_diagnostics_title" android:name="co.bird.android.feature.birdairdiagnostics.BirdAirDiagnosticsActivity"/>
+        <activity android:label="@string/bird_air_diagnostics_title" android:name="co.bird.android.feature.birdairdiagnostics.BirdAirScanActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:label="@string/operator_bulk_scanner_title" android:name="co.bird.android.feature.bulkscanner.scan.regular.DefaultBulkScannerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboard|keyboardHidden" android:label="@string/operator_bulk_scanner_title" android:name="co.bird.android.feature.bulkscanner.scan.serviceprogress.BulkServiceProgressScannerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/operator_bulk_update_title" android:name="co.bird.android.feature.bulkscanner.update.BulkUpdateActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_bulk_status_report" android:name="co.bird.android.feature.bulkscanner.report.regular.BulkStatusReportActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_bulk_status_report" android:name="co.bird.android.feature.bulkscanner.report.serviceprogress.BulkServiceCenterStatusReportActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_bulk_scanner_title" android:name="co.bird.android.feature.bulkscanner.scan.capture.CaptureBulkScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/command_center_title" android:name="co.bird.android.feature.commandcenter.landing.CommandCenterLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/command_center_title" android:name="co.bird.android.feature.commandcenter.commandcenter.CommandCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/command_center_title" android:name="co.bird.android.feature.commandcenter.commandcenter.LegacyCommandCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/entry_routing_title" android:name="co.bird.android.feature.commandcenter.routing.RoutingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/core_inventory_tracking_title" android:name="co.bird.android.feature.coreinventory.scan.CoreInventoryScanActivity"/>
+        <activity android:label="@string/fleet_status_label" android:name="co.bird.android.feature.fleetstatus.common.FleetActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/fleet_status_label" android:name="co.bird.android.feature.fleetstatus.state.list.FleetListActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name="co.bird.android.feature.flocktogether.FlockTogetherActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hard_count_title" android:name="co.bird.android.feature.hardcount.HardCountActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hard_count_title" android:name="co.bird.android.feature.hardcount.details.HardCountDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/hard_count_title" android:name="co.bird.android.feature.hardcount.landing.HardCountLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/health_check_activity_title" android:name="co.bird.android.feature.healthcheck.HealthCheckActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/identification_activity_title" android:name="co.bird.android.feature.identification.IdentificationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/identification_activity_title" android:name="co.bird.android.feature.identification.IdentificationScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/identification_activity_title" android:name="co.bird.android.feature.identification.trampoline.IdentificationTrampolineActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/helmet_use" android:name="co.bird.android.feature.itemlease.onboarding.HelmetLeasePromptActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/helmet_use" android:name="co.bird.android.feature.itemlease.onboarding.HelmetLeaseUnlockTutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/helmet_scan_title" android:name="co.bird.android.feature.itemlease.offboarding.HelmetLeaseReturnScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/helmet_scan_title" android:name="co.bird.android.feature.itemlease.solebe.HelmetLeaseSolebeScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/take_helmet_selfie" android:name="co.bird.android.feature.itemlease.selfie.HelmetSelfieConfirmationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/survey_screen_title" android:name="co.bird.android.feature.localssurvey.LocalsSurveyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:label="@string/operator_bulk_scanner_title" android:name="co.bird.android.feature.release.ReleaseScanActivity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.ar.core" android:value="optional"/>
+        <activity android:label="@string/confirm_parking" android:name="co.bird.android.feature.ar.resolution.VpsResolveActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/confirm_parking" android:name="co.bird.android.feature.ar.parking.VpsParkingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_task_list_title" android:name="co.bird.android.feature.operator.tasklistv2.OperatorTaskListV2Activity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.repair.v1.selection.RepairSelectionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/all_repairs" android:name="co.bird.android.feature.repair.v1.search.RepairSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_repairs" android:name="co.bird.android.feature.repair.v1.overview.RepairOverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/issue_status_title" android:name="co.bird.android.feature.repair.v1.issuestatus.IssueStatusActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_repairs" android:name="co.bird.android.feature.repair.v2.overview.RepairV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/repair_issue_subtypes_title" android:name="co.bird.android.feature.repair.v2.subtypes.RepairIssueSubtypesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_repairs" android:name="co.bird.android.feature.repair.v3.overview.RepairV3OverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.repair.v3.issues.RepairV3IssueActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.repair.pastrepairs.PastRepairsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.repair.diagnostics.DiagnosticsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/repair_cant_repair" android:name="co.bird.android.feature.repair.v3.overview.nonrepair.NonRepairSurveyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_inspect_title" android:name="co.bird.android.feature.workorders.legacyinspection.LegacyWorkOrderInspectionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/work_order_issues_title" android:name="co.bird.android.feature.workorders.issues.LegacyWorkOrderIssuesActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_details_title" android:name="co.bird.android.feature.workorders.details.WorkOrderDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/work_order_inspect_title" android:name="co.bird.android.feature.workorders.inspection.WorkOrderInspectionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/inspection_label" android:name="co.bird.android.feature.workorders.v3.InspectionV3Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ratings_uppercased" android:name="co.bird.android.feature.birdratinghistory.BirdRatingHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/cannot_capture_title" android:name="co.bird.android.feature.cannotaccess.report.CannotAccessActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/batches_vehicles_in_batch" android:name="co.bird.android.feature.servicecenter.batches.vehiclesinbatch.VehiclesInBatchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/batches" android:name="co.bird.android.feature.servicecenter.batches.landing.BatchLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/batches_create_batch" android:name="co.bird.android.feature.servicecenter.batches.createbatch.CreateBatchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/batches_create_or_add" android:name="co.bird.android.feature.servicecenter.batches.addtobatch.AddToBatchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/batches_search_title" android:name="co.bird.android.feature.servicecenter.batches.batchsearch.BatchSearchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/quality_control_title" android:name="co.bird.android.feature.servicecenter.qualitycontrol.landing.QualityControlLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/inventory" android:launchMode="singleTop" android:name="co.bird.android.feature.servicecenter.inventorycount.InventoryScanProxyActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/inventory" android:name="co.bird.android.feature.servicecenter.inventorycount.InventoryCountActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/inventory" android:name="co.bird.android.feature.servicecenter.inventorycount.excessinventory.ExcessInventoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/ride_pass_screen_title" android:name="co.bird.android.feature.ridepass.v1.RidePassActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_pass_left_navigation_title" android:name="co.bird.android.feature.ridepass.v2.list.RidePassV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_pass_left_navigation_title" android:name="co.bird.android.feature.ridepass.v4.list.RidePassV4Activity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.ridepass.v4.details.RidePassV4DetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_plus_symbol_uppercased" android:name="co.bird.android.feature.birdplus.v1.list.BirdPlusLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_plus_symbol_uppercased" android:name="co.bird.android.feature.birdplus.v1.details.BirdPlusDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/bird_plus_symbol_uppercased" android:name="co.bird.android.feature.birdplus.v1.purchased.BirdPlusPurchasedActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.maintenance.MaintenanceLandingActivity"/>
+        <activity android:label="@string/merchant_location_activity_title" android:launchMode="singleTask" android:name="co.bird.android.feature.merchant.activity.MerchantLocationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_history_title" android:launchMode="singleTask" android:name="co.bird.android.feature.merchant.activity.MerchantHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_payment_confirmation_activity_title" android:name="co.bird.android.feature.merchant.activity.MerchantHistoryDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/flag_nest_label" android:name="co.bird.android.feature.nestflagging.NestFlaggingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/notification_center" android:name="co.bird.android.feature.notificationcenter.NotificationCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/notification" android:name="co.bird.android.feature.notificationcenter.details.NotificationDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_inventory_category_activity_title" android:name="co.bird.android.feature.operatorinventory.InventoryPartDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.operatorinventory.InventoryPartSelectionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_ride_detail_title" android:name="co.bird.android.feature.operator.ridedetail.OperatorRideDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_task_list_title" android:name="co.bird.android.feature.operator.tasklist.OperatorTaskListActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/required_releases" android:name="co.bird.android.feature.operator.releaseassignment.ReleaseAssignmentActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/private_birds_menu_item" android:name="co.bird.android.feature.ownedbirds.PrivateBirdsOverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/owned_birds_title" android:name="co.bird.android.feature.ownedbirds.OwnedBirdsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_activity_title" android:name="co.bird.android.feature.payment.quickpayment.QuickPaymentActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/autopay_v2_title" android:name="co.bird.android.feature.payment.bankredirect.AddBalanceActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_activity_title" android:name="co.bird.android.feature.payment.bankredirect.BankRedirectLaunchActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_set_up_title" android:name="co.bird.android.feature.payment.preload.v2.landing.PreloadV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/payment_activity_title" android:name="co.bird.android.feature.payment.preload.v2.landing.PreloadV2ActivityVersionB" android:screenOrientation="portrait"/>
+        <activity android:label="@string/add_money_title" android:name="co.bird.android.feature.payment.preload.v2.options.PreloadV2OptionsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/auto_reload_cta" android:name="co.bird.android.feature.payment.preload.v2.autoreload.AutoReloadV2Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/quality_control_title" android:name="co.bird.android.qualitycontrol.swipe.SwipeQualityControlActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/quality_control_title" android:name="co.bird.android.qualitycontrol.list.ListQualityControlActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.qualitycontrol.result.QualityControlResultActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/damage_feedback_activity_title" android:name="co.bird.android.feature.rideendsummary.DamageFeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/rate_your_ride_title" android:launchMode="singleTask" android:name="co.bird.android.feature.rideendsummary.RideFeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/ride_title_ride_end" android:name="co.bird.android.feature.rideendsummary.RideSummaryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_rating_title" android:name="co.bird.android.feature.rideendsummary.RideRatingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_report_screen_title" android:name="co.bird.android.feature.rideendsummary.ridereport.RideReportActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_input_activity_title" android:name="co.bird.android.feature.rider.birdpay.input.BirdPayInputActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/merchant_payment_confirmation_activity_title" android:name="co.bird.android.feature.rider.birdpay.confirmation.PaymentConfirmationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.rider.birdpay.place.PlaceInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:label="@string/save_money_title_titlecased" android:name="co.bird.android.feature.savemoney.SaveMoneyActivity"/>
+        <activity android:label="@string/dispute_a_charge_or_fee" android:name="co.bird.android.feature.selfservepayment.dispute.DisputeChargeActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/ride_summary_receipt_subtitle" android:name="co.bird.android.feature.selfservepayment.receipt.TransactionReceiptActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/refund_account_balance" android:name="co.bird.android.feature.selfservepayment.refund.RefundAccountBalanceActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/safe_start_title_word_cased" android:name="co.bird.android.feature.sober.SoberStartActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/suggest_a_nest" android:name="co.bird.android.feature.suggestanest.SuggestNestActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/drawer_operator_transfer_order" android:name="co.bird.android.feature.transferorder.landing.TransferOrderLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/container_order_title" android:name="co.bird.android.feature.transferorder.container.ContainerDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/transfer_order_details" android:name="co.bird.android.feature.transferorder.operatorallocationdetails.OperatorAllocationDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/sku_order_title" android:name="co.bird.android.feature.transferorder.sku.SkuDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/sku_order_activity_title" android:name="co.bird.android.feature.transferorder.sku.scanner.SkuScannerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/sku_investigation_activity_title" android:name="co.bird.android.feature.transferorder.sku.investigation.SkuInvestigationActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/process_container_order_activity_title" android:name="co.bird.android.feature.transferorder.container.processing.ProcessContainerOrderActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.transferorder.sku.scanner.details.SkuScannedDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.transferorder.operator.OperatorOrderActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/transfer_orders_scanner_add_birds" android:name="co.bird.android.feature.transferorder.scanner.inbound.InboundScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/transfer_orders_scanner_add_birds" android:name="co.bird.android.feature.transferorder.scanner.outbound.OutboundScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/transfer_orders_scanner_add_birds" android:name="co.bird.android.feature.transferorder.scanner.outbound.scrap.ScrapOrderScanActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/scrap_orders_title" android:name="co.bird.android.feature.transferorder.scrap.overview.ScrapOrderOverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/transfer_order_details" android:name="co.bird.android.feature.transferorder.sku.vehicles.SkuOrderVehiclesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.tutorial.TutorialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/configurable_tutorials" android:name="co.bird.android.feature.configurabletutorial.ConfigurableTutorialsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/configurable_tutorials" android:name="co.bird.android.feature.configurabletutorial.viewer.ConfigurableTutorialViewerActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/scrap_activity_label" android:name="co.bird.android.feature.scrap.ScrapActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/scrap_title" android:name="co.bird.android.feature.scrap.landing.ScrapLandingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.webview.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.feature.webview.WebViewArchiveActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/complaint_capitalized" android:name="co.bird.android.feature.complaintresolution.ComplaintResolutionActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/operator_bulk_scanner_title" android:name="co.bird.android.feature.complaintresolution.scanner.VehicleInvolvedScanActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.library.lightbox.LightboxActivity" android:screenOrientation="portrait"/>
+        <activity android:name="co.bird.android.retakeablephoto.RetakeablePhotoActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/shake_to_report_title" android:name="co.bird.android.lib.shaketoreport.BugReportActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <service android:exported="false" android:name="co.bird.android.manager.localasset.services.LocalAssetDeletionService"/>
+        <service android:exported="false" android:foregroundServiceType="dataSync|location" android:name="co.bird.android.foregroundservice.ForegroundService"/>
+        <activity android:label="@string/chucker_name" android:launchMode="singleTask" android:name="com.chuckerteam.chucker.internal.ui.MainActivity" android:taskAffinity="com.chuckerteam.chucker.task" android:theme="@style/Chucker.Theme"/>
+        <activity android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity" android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity" android:theme="@style/Chucker.Theme"/>
+        <service android:exported="false" android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseJobIntentServiceReceiver"/>
+        <provider android:authorities="co.bird.android.com.chuckerteam.chucker.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/chucker_provider_paths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.stripe.android.paymentsheet.PaymentSheetActivity" android:theme="@style/StripePaymentSheetDefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity" android:theme="@style/StripePaymentSheetDefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity" android:theme="@style/StripePaymentSheetDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity" android:theme="@style/StripePaymentSheetDefaultTheme"/>
+        <activity android:exported="false" android:label="@string/link" android:name="com.stripe.android.link.LinkActivity" android:theme="@style/LinkBaseTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.stripe.android.ui.core.cardscan.CardScanActivity" android:theme="@style/StripePaymentSheetDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.view.AddPaymentMethodActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.view.PaymentMethodsActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.view.PaymentFlowActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.view.PaymentAuthWebViewActivity" android:theme="@style/StripeDefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.stripe.android.view.PaymentRelayActivity" android:theme="@style/StripeTransparentTheme"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.stripe.android.payments.StripeBrowserLauncherActivity" android:theme="@style/StripeTransparentTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity" android:theme="@style/StripeTransparentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="payment_return_url" android:path="/co.bird.android" android:scheme="stripesdk"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity" android:theme="@style/StripeGooglePayDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity" android:theme="@style/StripeGooglePayDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity" android:theme="@style/StripeGooglePayDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity" android:theme="@style/PayLauncherDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity" android:theme="@style/StripeTransparentTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity" android:theme="@style/Stripe3DS2Theme"/>
+        <activity android:exported="true" android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="link-accounts" android:pathPrefix="/co.bird.android/authentication_return" android:scheme="stripe-auth"/>
+                <data android:host="link-native-accounts" android:pathPrefix="/co.bird.android/authentication_return" android:scheme="stripe-auth"/>
+                <data android:host="link-accounts" android:path="/co.bird.android/success" android:scheme="stripe-auth"/>
+                <data android:host="link-accounts" android:path="/co.bird.android/cancel" android:scheme="stripe-auth"/>
+                <data android:host="native-redirect" android:pathPrefix="/co.bird.android" android:scheme="stripe-auth"/>
+                <data android:host="auth-redirect" android:pathPrefix="/co.bird.android" android:scheme="stripe"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity" android:theme="@style/StripeDefaultTheme"/>
+        <activity android:exported="false" android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity" android:theme="@style/StripeDefaultTheme" android:windowSoftInputMode="adjustResize"/>
+        <provider android:authorities="co.bird.android.financialconnections-init" android:exported="false" android:multiprocess="true" android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="co.bird.android.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService"/>
+        <activity android:name="com.braintreepayments.api.ThreeDSecureActivity"/>
+        <service android:enabled="false" android:exported="false" android:name="androidx.camera.core.impl.MetadataHolderService">
+            <meta-data android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER" android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <provider android:authorities="co.bird.android.zendesk.support.GuideSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.guide.GuideSdkStartupProvider"/>
+        <activity android:exported="false" android:name="zendesk.messaging.MessagingActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/places_autocomplete_label" android:name="com.google.android.libraries.places.widget.AutocompleteActivity" android:theme="@style/PlacesAutocompleteOverlay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.playintegrity.FirebaseAppCheckPlayIntegrityRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.ktx.FirebaseDynamicLinksKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.ktx.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.debug.FirebaseAppCheckDebugRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:name="com.adyen.checkout.components.analytics.AnalyticsDispatcher" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <activity android:exported="false" android:name="com.appboy.ui.AppboyWebViewActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyFeedActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyContentCardsActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:theme="@style/WhiteBackgroundTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:theme="@style/WhiteBackgroundDialogTheme">
+            <intent-filter android:priority="-100">
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.bumptech.glide.integration.webp.WebpGlideModule" android:value="GlideModule"/>
+        <provider android:authorities="co.bird.android.belvedere2.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.belvedere.BelvedereFileProvider" android:readPermission="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/belvedere_attachment_storage_v2"/>
+        </provider>
+        <receiver android:exported="false" android:name="com.braze.receivers.BrazeActionReceiver"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:enabled="false" android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="11000"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="co.bird.android.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:exported="false" android:name="no.nordicsemi.android.support.v18.scanner.ScannerService"/>
+        <receiver android:exported="true" android:name="no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver">
+            <intent-filter>
+                <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="223110000"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.google.ar.core.InstallActivity" android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="io.card.payment.CardIOActivity"/>
+        <activity android:name="io.card.payment.DataEntryActivity"/>
+        <activity android:exported="false" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.braintreepayments.api.GooglePaymentActivity" android:theme="@style/bt_transparent_activity"/>
+        <meta-data android:name="aia-compat-api-min-version" android:value="1"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    </application>
+</manifest>

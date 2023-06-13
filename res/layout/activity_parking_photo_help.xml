@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.bird.android.widget.CallToActionLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:callToActionText="@string/parking_photo_feedback_submit"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:gravity="start|center|top" android:id="@id/issueTextBox" android:background="@drawable/edittext_border" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="216.0dip" android:layout_marginTop="16.0dip" android:hint="@string/parking_photo_edittext_hint" android:inputType="textCapSentences" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</co.bird.android.widget.CallToActionLayout>

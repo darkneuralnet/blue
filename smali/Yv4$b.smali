@@ -1,0 +1,101 @@
+.class public LYv4$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LYv4;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(LYv4;Landroid/content/Intent;Ljava/util/Map;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LYv4;",
+            "Landroid/content/Intent;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Landroid/net/Uri;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-static {p0}, LYv4;->a(LYv4;)Landroid/app/RemoteInput;
+
+    move-result-object p0
+
+    invoke-static {p0, p1, p2}, LZv4;->a(Landroid/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
+
+    return-void
+.end method
+
+.method public static b(Ljava/lang/Object;)Ljava/util/Set;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/util/Set<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    check-cast p0, Landroid/app/RemoteInput;
+
+    invoke-static {p0}, Law4;->a(Landroid/app/RemoteInput;)Ljava/util/Set;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static c(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Intent;",
+            "Ljava/lang/String;",
+            ")",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Landroid/net/Uri;",
+            ">;"
+        }
+    .end annotation
+
+    invoke-static {p0, p1}, Lbw4;->a(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static d(Landroid/app/RemoteInput$Builder;Ljava/lang/String;Z)Landroid/app/RemoteInput$Builder;
+    .locals 0
+
+    invoke-static {p0, p1, p2}, Lcw4;->a(Landroid/app/RemoteInput$Builder;Ljava/lang/String;Z)Landroid/app/RemoteInput$Builder;
+
+    move-result-object p0
+
+    return-object p0
+.end method

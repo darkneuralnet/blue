@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.maps.MapView android:enabled="true" android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hardwareAccelerated="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dragView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_hideable="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" app:indicatorColor="@color/extraGreen" />
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@drawable/button_pill_selector_disabled" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <co.bird.android.widget.SilenceableMaterialEditText android:layout_gravity="center_horizontal" android:id="@id/addressText" android:nextFocusDown="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="-8.0dip" android:layout_marginBottom="-8.0dip" android:hint="@string/address_hint" android:maxLines="3" android:drawableLeft="@drawable/ic_location_pin" android:drawablePadding="12.0dip" android:inputType="textPostalAddress" android:textAllCaps="true" style="@style/MyEditText" />
+            </FrameLayout>
+            <Button android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/on_demand_setup_continue" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/black" android:id="@id/headsUpText" android:background="@drawable/background_white_round_rect" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

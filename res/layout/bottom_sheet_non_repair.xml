@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip">
+        <Button android:id="@id/confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/general_got_it" android:stateListAnimator="@animator/flat_button_anim" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toTopOf="@id/cancel" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="@dimen/activity_vertical_margin" style="@style/PrimaryButton" />
+        <Button android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="12.0dip" android:text="@string/general_cancel_button" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/confirm" style="@style/TextButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

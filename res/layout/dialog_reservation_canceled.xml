@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="32.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:layout_gravity="center_horizontal" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reservation_canceled" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mainText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/reservation_canceled_charged" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <Button android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/positiveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/reservation_positive" />
+    <Button android:textSize="12.0sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/negativeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reservation_negative" style="@style/TextButton" />
+</LinearLayout>

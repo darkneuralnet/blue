@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Udfyld %d frigivelser fra kortet for at låse op for flere stationer.</item>
+        <item quantity="one">Udfyld %d frigivelse fra kortet for at låse op for flere stationer.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird-cruisere</item>
+        <item quantity="one">Bird-cruiser</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds Indsamlet</item>
+        <item quantity="one">%d Bird Indsamlet</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds opladet</item>
+        <item quantity="zero">0 Birds opladet</item>
+        <item quantity="one">1 Bird opladet</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d Problemer blev fundet</item>
+        <item quantity="one">%d Problemet blev fundet</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d scanninger mislykkedes</item>
+        <item quantity="one">%d scanningen mislykkedes</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">om %d dage</item>
+        <item quantity="one">i morgen</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">om %d timer</item>
+        <item quantity="one">om 1 time</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">om %d min.</item>
+        <item quantity="one">om 1 min.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">om %d sekunder</item>
+        <item quantity="one">om 1 sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">i går</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">for %d timer siden</item>
+        <item quantity="one">for 1 time siden</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">for %d min. siden</item>
+        <item quantity="one">for 1 min. siden</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">for %d sek. siden</item>
+        <item quantity="one">for 1 sek. siden</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">Én time</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">Ét minut</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">Ét sekund</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">om %d dage</item>
+        <item quantity="one">i morgen</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">om %d timer</item>
+        <item quantity="one">om 1 time</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minut</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">om %d sekunder</item>
+        <item quantity="one">om 1 sekund</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">for %d dage siden</item>
+        <item quantity="one">i går</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">for %d timer siden</item>
+        <item quantity="one">for 1 time siden</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">for %d minutter siden</item>
+        <item quantity="one">for 1 minut siden</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">for %d sekunder siden</item>
+        <item quantity="one">for 1 sekund siden</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye notifikationer</item>
+        <item quantity="one">%d ny notifikation</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Ønsker du at alarmere %d scannede køretøjer?</item>
+        <item quantity="one">Ønsker du at alarmere %d scannet køretøj?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d ny del registreret.</item>
+        <item quantity="one">%d ny del registreret.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s Knallerter</item>
+        <item quantity="one">%s Knallert</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s Elektriske løbehjul</item>
+        <item quantity="one">%s Elektrisk løbehjul</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Udløber om %d dage</item>
+        <item quantity="one">Udløber om %d dag</item>
+        <item quantity="two">Udløber om %d dage</item>
+        <item quantity="few">Udløber om %d dage</item>
+        <item quantity="many">Udløber om %d dage</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds valgt</item>
+        <item quantity="one">%d Bird valgt</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Det ser ud til, at denne ordre mangler %d enheder. Hvis du vil behandle denne SKU-ordre nu, skal du underrette forsyningskæden om de manglende varer ved at starte en undersøgelse.</item>
+        <item quantity="one">Det ser ud til, at denne ordre mangler %d enhed. Hvis du vil behandle denne SKU-ordre nu, skal du underrette forsyningskæden om de manglende varer ved at starte en undersøgelse.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(%d dage før tid)</item>
+        <item quantity="one">(%d dag før tid)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(%d dage forsinket)</item>
+        <item quantity="one">(%d dag forsinket)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(%d timer før tid)</item>
+        <item quantity="one">(%d time før tid)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(%d timer forsinket)</item>
+        <item quantity="one">(%d time forsinket)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Frigiv %d køretøjer</item>
+        <item quantity="zero">Frigiv 0 køretøjer</item>
+        <item quantity="one">Frigiv 1 køretøj</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Indsaml %d køretøjer</item>
+        <item quantity="zero">Indsaml 0 køretøjer</item>
+        <item quantity="one">Indsaml 1 køretøj</item>
+    </plurals>
+</resources>

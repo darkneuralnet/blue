@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.bird.android.widget.standardcomponents.LabeledRatingItemView android:id="@id/ratingSection" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/reviewBox" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:textColor="@color/primaryText" android:id="@id/reviewBox" android:background="@drawable/button_gray_border" android:padding="@dimen/activity_horizontal_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TextAppearance.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

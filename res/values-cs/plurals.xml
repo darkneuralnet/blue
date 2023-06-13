@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Dokončete %d vrácení z mapy a odemkněte tak další servisní místa.</item>
+        <item quantity="one">Dokončete %d vrácení z mapy a odemkněte tak další servisní místa.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird Cruisery</item>
+        <item quantity="one">Bird Cruiser</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">Počet odebraných koloběžek Birds: %d</item>
+        <item quantity="one">Počet odebraných koloběžek Bird: %d</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">Počet nabitých koloběžek Birds: %d</item>
+        <item quantity="zero">Počet nabitých koloběžek Birds: 0</item>
+        <item quantity="one">Počet nabitých koloběžek Bird: 1</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">Bylo nalezeno %d problémů</item>
+        <item quantity="one">Byl nalezen %d problém</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d skenování se nezdařilo</item>
+        <item quantity="one">%d skenování se nezdařilo</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">za %d dny</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">před %d h</item>
+        <item quantity="one">před 1 h</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">před %d s</item>
+        <item quantity="one">před 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 hodina</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">za %d dny</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 minutu</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 sekundu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">před %d h</item>
+        <item quantity="one">před 1 h</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">před %d s</item>
+        <item quantity="one">před 1 sekundou</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Opravdu chcete pípnout %d naskenované (naskenovaných) koloběžky (koloběžek)?</item>
+        <item quantity="one">Opravdu chcete pípnout %d naskenované (naskenovaných) koloběžky (koloběžek)?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d nový díl zaznamenán.</item>
+        <item quantity="one">%d nový díl zaznamenán.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s Mopedy</item>
+        <item quantity="one">%s Moped</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s Skútry</item>
+        <item quantity="one">%s Skútr</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Platnost vyprší za %d dní</item>
+        <item quantity="one">Platnost vyprší za %d den</item>
+        <item quantity="two">Platnost vyprší za %d dní</item>
+        <item quantity="few">Platnost vyprší za %d dní</item>
+        <item quantity="many">Platnost vyprší za %d dní</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">Počet vybraných koloběžek Birds: %d</item>
+        <item quantity="one">Počet vybraných koloběžek Bird: %d</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Vypadá to, že v této objednávce chybí tento počet položek: %d. Chcete-li nyní zpracovat tuto objednávku SKU, musíte informovat dodavatelský řetězec o těchto chybějících položkách tak, že zahájíte prošetření.</item>
+        <item quantity="one">Vypadá to, že v této objednávce chybí tento počet položek: %d. Chcete-li nyní zpracovat tuto objednávku SKU, musíte informovat dodavatelský řetězec o těchto chybějících položkách tak, že zahájíte prošetření.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(o %d d. dříve)</item>
+        <item quantity="one">(o %d d. dříve)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(o %d d. později)</item>
+        <item quantity="one">(o %d d. později)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(o %d hod. dříve)</item>
+        <item quantity="one">(o %d hod. dříve)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(o %d hod. později)</item>
+        <item quantity="one">(o %d hod. později)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Vrátit %d koloběžky/koloběžek</item>
+        <item quantity="zero">Vrátit 0 koloběžek</item>
+        <item quantity="one">Vrátit 1 koloběžku</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Odeberte tento počet koloběžek: %d</item>
+        <item quantity="zero">Odeberte tento počet koloběžek: 0</item>
+        <item quantity="one">Odeberte tento počet koloběžek: 1</item>
+    </plurals>
+</resources>

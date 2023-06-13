@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.bird.android.widget.EditTextBox android:id="@id/createBatchEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:hint="@string/create_batch_edit_text_hint" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:gravity="center" android:id="@id/createBatchButton" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/batches_create_batch" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/createBatchEditText" style="@style/PrimaryButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

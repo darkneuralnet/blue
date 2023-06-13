@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>​ເລືອກ​ຈຳ​ນວນ Birds ​ທີ່​ເຂົ້າ​ຮ່ວມ</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>ຕົວເລັ່ງຄວາມໄວ</item>
+        <item>ເບກ</item>
+        <item>ໄຟ</item>
+        <item>ກະດິ່ງ</item>
+        <item>ຮັບປະກັນວ່າ​ໄດ້​ສ້ອມ​ແປງຟັງຊັນ​ຄວາມເສຍຫາຍ​ແລ້ວ</item>
+        <item>ການກວດຄຸນນະພາບ (ມັນຮູ້ສຶກປອດໄພບໍ)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>ເປີດເຜີນການລັອກແບບປະສົມກັນ.</item>
+        <item>ເຂົ້າສູ່ການລັອກແບບປະສົມກັນ.</item>
+        <item>ກົດປຸ່ມເທິງກະແຈລັອກເພື່ອເປີດ.</item>
+        <item>​ຄັດ​ຕິດ​ກະ​ແຈ​ລັອກ​ໃສ່ Bird ຄໍ​ພາ​ຫະ​ນະ.</item>
+    </string-array>
+</resources>

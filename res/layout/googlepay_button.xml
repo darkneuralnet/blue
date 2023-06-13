@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/frame_rectangle_border_rounded_black" android:layout_width="fill_parent" android:layout_height="48.0dip" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" app:srcCompat="@drawable/googlepay_button_content" />
+</LinearLayout>

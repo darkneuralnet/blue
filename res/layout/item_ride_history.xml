@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textColor="@color/primaryText" android:id="@id/timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/distanceContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/timestamp">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/distanceIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_location_dark" />
+            <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/durationSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/timestamp" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/distanceContainer">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_access_time" />
+            <TextView android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/primaryText" android:id="@id/cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/rightArrow" />
+        <ImageView android:id="@id/rightArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_navigate_next" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Selecteer aantal betrokken Birds</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Versnelling</item>
+        <item>Rem</item>
+        <item>Lichten</item>
+        <item>Bel</item>
+        <item>Check of de gerepareerde onderdelen nu werken</item>
+        <item>Kwaliteitscontrole (voelt hij veilig aan)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Maak lock-combinatie bekend.</item>
+        <item>Voer combinatie in op het slot.</item>
+        <item>Druk op knop bovenop lock om te openen.</item>
+        <item>Bevestig het slot opnieuw aan de nek van de Bird.</item>
+    </string-array>
+</resources>

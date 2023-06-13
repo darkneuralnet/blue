@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/contentView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.maps.MapView android:enabled="true" android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:hardwareAccelerated="true" />
+    <androidx.core.widget.NestedScrollView android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" app:layout_insetEdge="bottom">
+        <co.bird.android.app.feature.ridedetail.widget.RideSummaryWithReceiptView android:id="@id/rideSummaryView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

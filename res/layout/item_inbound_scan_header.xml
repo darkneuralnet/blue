@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/passiveText" android:id="@id/acceptedCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Headline" />
+    <TextView android:textColor="@color/passiveText" android:id="@id/acceptedLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/transfer_orders_scanner_total_accepted" app:layout_constraintStart_toStartOf="@id/acceptedCount" app:layout_constraintTop_toBottomOf="@id/acceptedCount" style="@style/TextAppearance.Caption" />
+    <Button android:id="@id/acceptDelivery" android:visibility="gone" android:layout_width="220.0dip" android:layout_height="40.0dip" android:minWidth="40.0dip" android:text="@string/transfer_orders_accept_delivery_uppercase" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/PrimaryButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

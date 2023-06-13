@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="top" android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/birdWhite" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/buttonContainer" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/buttonContainer" android:background="@color/birdWhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <Button android:enabled="false" android:layout_gravity="bottom" android:id="@id/submit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/general_submit" style="@style/PrimaryButton" />
+        <Button android:layout_gravity="bottom" android:id="@id/done" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/smartlock_unlock_activity_operator_primary_button" style="@style/PrimaryButton" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

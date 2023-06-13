@@ -1,0 +1,146 @@
+.class public final Lkh6$d;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lkh6;->k()Lio/reactivex/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Lkotlin/Pair<",
+        "+",
+        "Ljava/lang/Boolean;",
+        "+",
+        "Ljava/lang/Boolean;",
+        ">;",
+        "Lio/reactivex/h;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0007\u001a\n \u0002*\u0004\u0018\u00010\u00040\u00042\"\u0010\u0003\u001a\u001e\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0005\u0010\u0006"
+    }
+    d2 = {
+        "Lkotlin/Pair;",
+        "",
+        "kotlin.jvm.PlatformType",
+        "<name for destructuring parameter 0>",
+        "Lio/reactivex/h;",
+        "invoke",
+        "(Lkotlin/Pair;)Lio/reactivex/h;",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Lkh6;
+
+
+# direct methods
+.method public constructor <init>(Lkh6;)V
+    .locals 0
+
+    iput-object p1, p0, Lkh6$d;->g:Lkh6;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Lkotlin/Pair;)Lio/reactivex/h;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/Pair<",
+            "Ljava/lang/Boolean;",
+            "Ljava/lang/Boolean;",
+            ">;)",
+            "Lio/reactivex/h;"
+        }
+    .end annotation
+
+    const-string v0, "<name for destructuring parameter 0>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-static {}, Lio/reactivex/c;->p()Lio/reactivex/c;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, Lkh6$d;->g:Lkh6;
+
+    const-string v1, "restartProcess"
+
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    invoke-static {v0, p1}, Lkh6;->access$performLogout(Lkh6;Z)Lio/reactivex/c;
+
+    move-result-object p1
+
+    :goto_0
+    return-object p1
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlin/Pair;
+
+    invoke-virtual {p0, p1}, Lkh6$d;->invoke(Lkotlin/Pair;)Lio/reactivex/h;
+
+    move-result-object p1
+
+    return-object p1
+.end method

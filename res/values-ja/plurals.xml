@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">より多くのネストをアンロックするために、%dのリリースを完了してください。</item>
+        <item quantity="one">より多くのネストをアンロックするために、%dのリリースを完了してください。</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Birdクルーザー</item>
+        <item quantity="one">Birdクルーザー</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds キャプチャ</item>
+        <item quantity="one">%d Bird キャプチャ</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%dBirds充電済</item>
+        <item quantity="zero">0Birds充電済</item>
+        <item quantity="one">1Bird充電済</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d問題が見つかりました</item>
+        <item quantity="one">%d 問題が見つかりました</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%dのスキャンに失敗しました</item>
+        <item quantity="one">%dのスキャンに失敗しました</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">スキャンした%d台の車両を鳴らしたいですか？</item>
+        <item quantity="one">スキャンした%d台の車両のアラームを鳴らしますか？</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d 新しい部品が記録されました。</item>
+        <item quantity="one">%d 新しい部品が記録されました。</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s原付</item>
+        <item quantity="one">%s原付</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s スクーター</item>
+        <item quantity="one">%s スクーター</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">有効期限まで%d日</item>
+        <item quantity="one">有効期限まで%d日</item>
+        <item quantity="two">有効期限まで%d日</item>
+        <item quantity="few">有効期限まで%d日</item>
+        <item quantity="many">有効期限まで%d日</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds を選択</item>
+        <item quantity="one">%d Bird を選択</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">この発注には、%dアイテムがないようです。このSKU発注を今すぐ処理するために、このアイテムについて、サプライチェーンに通知し、調査を始める必要があります。</item>
+        <item quantity="one">この発注には、%dアイテムがないようです。このSKU発注を今すぐ処理するために、このアイテムについて、サプライチェーンに通知し、調査を始める必要があります。</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">（%d日早く）</item>
+        <item quantity="one">（%d日早く）</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">（%d日遅れ）</item>
+        <item quantity="one">（%d日遅れ）</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">（%d時間早く）</item>
+        <item quantity="one">（%d時間早く）</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">（%d時間遅れ）</item>
+        <item quantity="one">（%d時間遅れ）</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">%d車両をリリース</item>
+        <item quantity="zero">0車両をリリース</item>
+        <item quantity="one">1車両をリリース</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">%d台をキャプチャ</item>
+        <item quantity="zero">0台の車両をキャプチャする。</item>
+        <item quantity="one">1台をキャプチャ</item>
+    </plurals>
+</resources>

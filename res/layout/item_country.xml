@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/emojiFlag" android:layout="@layout/emoji_flag_textview" android:inflatedId="@id/enojiFlagInflated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/flag" android:layout="@layout/non_emoji_flag_textview" android:inflatedId="@id/flagInflated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    <TextView android:textColor="@color/primaryText" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="@id/capacity" app:layout_constraintEnd_toStartOf="@id/capacityArrow" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/capacity" style="@style/TextAppearance.Headline2" />
+    <ImageView android:id="@id/capacityArrow" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintBottom_toBottomOf="@id/capacity" app:layout_constraintEnd_toStartOf="@id/capacity" app:layout_constraintTop_toTopOf="@id/capacity" app:srcCompat="@drawable/ic_arrow_down" />
+    <TextView android:id="@id/capacity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Headline" />
+</androidx.constraintlayout.widget.ConstraintLayout>

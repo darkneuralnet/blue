@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/buttonContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip">
+            <Button android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/work_order_inspection_dialog_done" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dispatchIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerHorizontal="true" app:srcCompat="@drawable/ic_map_marker_peril" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:id="@id/birdCode" android:background="@drawable/button_pill_white" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-17.0dip" android:layout_below="@id/dispatchIcon" android:layout_centerHorizontal="true" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" android:elevation="2.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+                <TextView android:gravity="center" android:id="@id/dispatchTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Caption.Bold" />
+                <TextView android:textColor="@color/passiveText" android:gravity="center" android:id="@id/timeElapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:id="@id/actionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operator_dispatch_message" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/lightGray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <RelativeLayout android:id="@id/pickUpLaterButtonContainer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <Button android:textSize="12.0sp" android:id="@id/pickUpLaterButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/operator_dispatch_pick_up_later" android:textAllCaps="true" style="@style/TextButton" />
+            <View android:background="@color/lightGray" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <Button android:textSize="12.0sp" android:id="@id/dispatchDirectionsButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/operator_dispatch_get_direction" android:layout_weight="1.0" android:textAllCaps="true" style="@style/TextButton" />
+    </LinearLayout>
+</LinearLayout>

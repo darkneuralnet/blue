@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.bird.android.widget.actions.SlideToLockBackgroundView android:id="@id/backgroundView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <co.bird.android.widget.actions.SlideToLockThumbView android:id="@id/thumbView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/slide_to_unlock_thumb_margin" android:layout_marginEnd="@dimen/slide_to_unlock_thumb_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/lightGray" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slide_to_unlock" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

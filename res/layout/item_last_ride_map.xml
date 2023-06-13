@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.maps.MapView android:enabled="true" android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="200.0dip" android:hardwareAccelerated="true" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintTop_toTopOf="parent" app:liteMode="true" app:mapType="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

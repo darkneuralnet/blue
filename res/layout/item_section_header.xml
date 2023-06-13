@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:id="@id/sectionHeader" android:padding="@dimen/activity_horizontal_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Headline"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/row" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="32.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerVertical="true" android:paddingEnd="10.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_check_selected" />
+        <ImageView android:id="@id/unChecked" android:layout_width="32.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerVertical="true" android:paddingEnd="10.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_check_deselected" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/veryDarkGray" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charger_onboarding_finding_birds" android:layout_centerVertical="true" android:layout_toEndOf="@id/unChecked" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_navigate_next" />
+    </RelativeLayout>
+    <View android:id="@id/separator" android:background="@color/lighterGray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/row" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="24.0dip" android:layout_height="24.0dip" android:stateListAnimator="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeShadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeBg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_marker_bird_riding_badge_outer_circle_bg" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeOuter" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_marker_bird_riding_badge_outer_circle" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeInnerBg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_marker_bird_riding_badge_inner_circle_bg" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeContent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_marker_bird_riding_badge_filled_no_parking" />
+</merge>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:top="3.0dip" android:bottom="1.0dip">
+                <shape android:shape="oval">
+                    <solid android:color="#ffcccccc" />
+                    <size android:height="28.0dip" android:width="28.0dip" />
+                </shape>
+            </item>
+            <item android:top="2.0dip" android:bottom="2.0dip">
+                <shape android:shape="oval">
+                    <solid android:color="@color/birdWhite" />
+                    <size android:height="28.0dip" android:width="28.0dip" />
+                    <stroke android:width="0.5dip" android:color="@color/birdLightGray" />
+                </shape>
+            </item>
+            <item android:gravity="center" android:height="16.0dip" android:width="16.0dip" android:drawable="@drawable/ic_lock" />
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:top="3.0dip" android:bottom="1.0dip">
+                <shape android:shape="oval">
+                    <solid android:color="#ffcccccc" />
+                    <size android:height="28.0dip" android:width="28.0dip" />
+                </shape>
+            </item>
+            <item android:top="2.0dip" android:bottom="2.0dip" android:start="0.5dip" android:end="0.5dip">
+                <shape android:shape="oval">
+                    <solid android:color="@color/birdWhite" />
+                    <size android:height="28.0dip" android:width="28.0dip" />
+                    <stroke android:width="0.5dip" android:color="@color/birdLightGray" />
+                </shape>
+            </item>
+            <item android:gravity="center" android:height="16.0dip" android:width="16.0dip" android:drawable="@drawable/ic_unlock" />
+        </layer-list>
+    </item>
+</selector>

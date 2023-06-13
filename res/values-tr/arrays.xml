@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Dahil olan Birds sayısını seçin</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Gaz</item>
+        <item>Fren</item>
+        <item>Işıklar</item>
+        <item>Zil</item>
+        <item>Hasarlı işlevlerin onarıldığından emin olun</item>
+        <item>Kalite kontrol (güvenli geliyor mu)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Kilit şifresini göster.</item>
+        <item>Kilide şifreyi girin.</item>
+        <item>Açmak için kilidin üstündeki düğmeye bas.</item>
+        <item>Kilidi Bird’ün boynuna yeniden tak.</item>
+    </string-array>
+</resources>

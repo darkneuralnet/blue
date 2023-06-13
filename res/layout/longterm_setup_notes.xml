@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/bg_rental_notes_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0">
+        <EditText android:gravity="start|center|top" android:id="@id/notes_et" android:background="@null" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="116.0dip" android:hint="@string/long_term_rental_notes_hint" android:minLines="5" android:inputType="textMultiLine" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

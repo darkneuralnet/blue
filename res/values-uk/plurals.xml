@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Завершіть залишення %d з карти, щоб розблокувати більше гнізд.</item>
+        <item quantity="one">Завершіть залишення %d з карти, щоб розблокувати більше гнізд.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird Крейсерів</item>
+        <item quantity="one">Bird Крейсер</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds зарезервовано</item>
+        <item quantity="one">%d Bird зарезервовано</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds заряджено</item>
+        <item quantity="zero">0 Birds заряджено</item>
+        <item quantity="one">1 Bird заряджено</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">Виявлені проблеми: %d</item>
+        <item quantity="one">Виявлена проблема %d</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">Не вдалося виконати сканування %d</item>
+        <item quantity="one">Не вдалося виконати %d сканування</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">через %d дн.</item>
+        <item quantity="one">завтра</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">через %d год.</item>
+        <item quantity="one">через 1 год.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">через %d хв.</item>
+        <item quantity="one">через 1 хв.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">через %d сек.</item>
+        <item quantity="one">через 1 с.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">учора</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d год. тому</item>
+        <item quantity="one">1 годину тому</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d хв. тому</item>
+        <item quantity="one">1 хв. тому</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d сек. тому</item>
+        <item quantity="one">1 сек. тому</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d год</item>
+        <item quantity="one">1 год</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d хв</item>
+        <item quantity="one">1 хв</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">1 с</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">через %d дн.</item>
+        <item quantity="one">завтра</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">через %d год.</item>
+        <item quantity="one">через 1 год.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">через %d хв.</item>
+        <item quantity="one">через 1 хв.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">через %d сек.</item>
+        <item quantity="one">через 1 сек.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d дн. тому</item>
+        <item quantity="one">учора</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d год. тому</item>
+        <item quantity="one">1 год. тому</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d хв. тому</item>
+        <item quantity="one">1 хвилину тому</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d сек. тому</item>
+        <item quantity="one">1 сек. тому</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Ви хочете, щоб %d відскановані транспортні засоби подали сигнал?</item>
+        <item quantity="one">Ви хочете, щоб %d відсканований транспортний засіб подав сигнал?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d нову запчастину зареєстровано.</item>
+        <item quantity="one">%d нову запчастину зареєстровано.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s Мопеди</item>
+        <item quantity="one">%s Мопед</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s Скутери</item>
+        <item quantity="one">%s Скутер</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Термін дії завершується через %d дн.</item>
+        <item quantity="one">Термін дії завершується через %d день</item>
+        <item quantity="two">Термін дії завершується через %d дн.</item>
+        <item quantity="few">Термін дії завершується через %d дн.</item>
+        <item quantity="many">Термін дії завершується через %d дн.</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds вибрано</item>
+        <item quantity="one">%d Bird вибрано</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Здається, в цьому замовленні відсутні %d позицій. Щоб обробити це замовлення одиниць обліку зараз, вам потрібно повідомити постачальника про відсутні позиції, почавши розслідування.</item>
+        <item quantity="one">Здається, в цьому замовленні відсутня %d позиція. Щоб обробити це замовлення одиниць обліку зараз, вам потрібно повідомити постачальника про відсутні позиції, почавши розслідування.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(На %d днів раніше)</item>
+        <item quantity="one">(На %d день раніше)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(Із запізненням на %d днів)</item>
+        <item quantity="one">(Із запізненням на %d день)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(На %d годин раніше)</item>
+        <item quantity="one">(На %d годину раніше)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(Із запізненням на %d годин)</item>
+        <item quantity="one">(Із запізненням на %d годину)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Залишити транспортні засоби: %d</item>
+        <item quantity="zero">Залишити 0 транспортних засобів</item>
+        <item quantity="one">Залишити 1 транспортний засіб</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Зарезервувати транспортні засоби: %d</item>
+        <item quantity="zero">Зарезервувати 0 транспортних засобів</item>
+        <item quantity="one">Зарезервувати 1 транспортний засіб</item>
+    </plurals>
+</resources>

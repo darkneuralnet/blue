@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Ole hyvä ja täytä %d vapautusta kartalta avataksesi lisää pesiä.</item>
+        <item quantity="one">Ole hyvä ja täytä %d vapautus kartalta avataksesi lisää pesiä.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird Cruiseria</item>
+        <item quantity="one">Bird Cruiser</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birdsiä kaapattu</item>
+        <item quantity="one">%d Birdiä kaapattu</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birdsiä ladattu</item>
+        <item quantity="zero">0 Birdsiä ladattu</item>
+        <item quantity="one">1 Bird ladattu</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d havaittua ongelmaa</item>
+        <item quantity="one">%d havaittu ongelma</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d skannausta epäonnistui</item>
+        <item quantity="one">%d skannaus epäonnistui</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">%d päivän kuluttua</item>
+        <item quantity="one">huomenna</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">%d tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">%d min kuluttua</item>
+        <item quantity="one">1 min kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">%d sekunnin kuluttua</item>
+        <item quantity="one">1 s kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d päivää sitten</item>
+        <item quantity="one">eilen</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d tuntia sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d min sitten</item>
+        <item quantity="one">1 min sitten</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d s sitten</item>
+        <item quantity="one">1 s sitten</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">1 tunti</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">1 minuutti</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">1 sekunti</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">%d päivän kuluttua</item>
+        <item quantity="one">huomenna</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">%d tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">%d minuutin kuluttua</item>
+        <item quantity="one">1 minuutin kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">%d sekunnin kuluttua</item>
+        <item quantity="one">1 sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d päivää sitten</item>
+        <item quantity="one">eilen</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d tuntia sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d sekuntia sitten</item>
+        <item quantity="one">1 sekunti sitten</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Haluatko sirkuttaa %d skannattuja ajoneuvoja?</item>
+        <item quantity="one">Haluatko sirkuttaa %d skannattua ajoneuvoja?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d uusi osa on kirjattu.</item>
+        <item quantity="one">%d uusi osa on kirjattu.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s mopoa</item>
+        <item quantity="one">%s mopo</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s skootteria</item>
+        <item quantity="one">%s skootteri</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Vanhenee %d päivässä</item>
+        <item quantity="one">Vanhenee %d päivässä</item>
+        <item quantity="two">Vanhenee %d päivässä</item>
+        <item quantity="few">Vanhenee %d päivässä</item>
+        <item quantity="many">Vanhenee %d päivässä</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birdsiä valittu</item>
+        <item quantity="one">%d Birdiä valittu</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Näyttää siltä, että tästä tilauksesta puuttuu %d nimikettä. Jotta voit käsitellä tämän SKU-tilauksen nyt, sinun on ilmoitettava toimitusketjulle näistä puuttuvista nimikkeistä aloittamalla tutkimus.</item>
+        <item quantity="one">Näyttää siltä, että tästä tilauksesta puuttuu %d nimike. Jotta voit käsitellä tämän SKU-tilauksen nyt, sinun on ilmoitettava toimitusketjulle näistä puuttuvista nimikkeistä aloittamalla tutkimus.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(%d päivää etuajassa)</item>
+        <item quantity="one">(%d päivä etuajassa)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(%d päivää myöhässä)</item>
+        <item quantity="one">(%d päivä myöhässä)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(%d tuntia etuajassa)</item>
+        <item quantity="one">(%d tunti etuajassa)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(%d tuntia myöhässä)</item>
+        <item quantity="one">(%d tunti myöhässä)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Vapauta %d -ajoneuvot</item>
+        <item quantity="zero">Release 0 Ajoneuvot</item>
+        <item quantity="one">Vapauta 1 Ajoneuvo</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Kaappaa %d ajoneuvoa</item>
+        <item quantity="zero">Kaappaa 0 Ajoneuvot</item>
+        <item quantity="one">Kaappaa 1 Ajoneuvo</item>
+    </plurals>
+</resources>

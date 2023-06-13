@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>בחרו את מספר ה-Birds המעורבים</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>האצה</item>
+        <item>בלמים</item>
+        <item>פנסים</item>
+        <item>פעמון</item>
+        <item>ודאו שהנזקים שתוקנו אכן פועלים</item>
+        <item>בדיקת איכות (האם ההרגשה בטוחה)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>גלו את צירוף המנעול.</item>
+        <item>הכניסו את הצירוף במנעול.</item>
+        <item>לחצו על הכפתור שבראש המנעול כדי לפתוח.</item>
+        <item>חברו חזרה את המנעול לצוואר ה-Bird.</item>
+    </string-array>
+</resources>

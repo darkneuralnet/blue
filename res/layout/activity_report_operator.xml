@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/question" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <co.bird.android.app.feature.operator.widget.ReportOptionView android:id="@id/optionsView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:enabled="false" android:textSize="14.0sp" android:id="@id/submitReport" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/operator_submit_report" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+</RelativeLayout>

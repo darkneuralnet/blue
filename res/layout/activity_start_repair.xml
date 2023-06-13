@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/start_repair_header" style="@style/TextAppearance.AppCompat.Headline" />
+            <TextView android:textColor="@color/veryDarkGray" android:gravity="center" android:id="@id/birdCode" android:background="@drawable/ic_birdidborder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" style="@style/TextAppearance.AppCompat.Subhead" />
+            <ImageView android:id="@id/wrench" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_mechanicwrench" />
+            <TextView android:textColor="@color/veryDarkGray" android:gravity="center" android:id="@id/repairMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/start_repair_message" style="@style/TextAppearance.AppCompat.Subhead" />
+            <co.bird.android.app.feature.legacyrepair.startrepair.RepairDamageView android:id="@id/repairDamage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+            <Button android:enabled="false" android:textSize="14.0sp" android:id="@id/markRepaired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/start_repair_mark_repaired" style="@style/PrimaryButton" />
+            <Button android:textSize="14.0sp" android:id="@id/startOver" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/start_repair_start_over" style="@style/HollowButton" />
+            <Button android:textSize="14.0sp" android:id="@id/cantFix" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/start_repair_cant_fix" style="@style/HollowButton" />
+            <Button android:textSize="14.0sp" android:id="@id/cancelTask" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:text="@string/start_repair_cancel_repair" style="@style/HollowButton" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

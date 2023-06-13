@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ic_confetti" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/parkedRiders" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="82.0dip" android:layout_alignParentTop="true" android:layout_marginEnd="32.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_parked_riders" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/ride_pass_main_body" android:layout_marginStart="32.0dip" style="@style/TextAppearance.Headline" />
+</RelativeLayout>

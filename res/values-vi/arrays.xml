@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Chọn số Birds liên quan</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5 +</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Bộ gia tốc</item>
+        <item>Phanh</item>
+        <item>Đèn</item>
+        <item>Chuông</item>
+        <item>Đảm bảo bộ phận bị hỏng hoạt động được sau khi sửa</item>
+        <item>Kiểm tra chất lượng (có cảm thấy an toàn không?)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Hiển thị mã khóa số.</item>
+        <item>Nhập mã số trên khóa.</item>
+        <item>Nhấn nút trên cùng của khóa để mở.</item>
+        <item>Gắn lại khóa vào cổ Bird.</item>
+    </string-array>
+</resources>

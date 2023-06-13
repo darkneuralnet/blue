@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/emptyViewImage" android:layout_width="144.0dip" android:layout_height="144.0dip" android:layout_marginTop="90.0dip" />
+        <TextView android:gravity="center" android:id="@id/emptyViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin_large" android:layout_marginBottom="@dimen/activity_vertical_margin_small" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/activity_horizontal_margin_large" android:layout_marginEnd="@dimen/activity_horizontal_margin_large" style="@style/TextAppearance.AppCompat.Large" />
+        <TextView android:gravity="center" android:id="@id/emptyViewDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/TextAppearance.AppCompat.Subhead" />
+    </LinearLayout>
+</LinearLayout>

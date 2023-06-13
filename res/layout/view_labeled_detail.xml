@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/detail" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginEnd="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Caption" />
+    <TextView android:gravity="end" android:id="@id/detail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/label" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Caption" />
+</merge>

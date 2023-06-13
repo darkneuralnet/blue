@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="120.0dip" android:viewportWidth="120.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M3,0L117,0C118.657,-0 120,1.343 120,3L120,37C120,38.657 118.657,40 117,40L3,40C1.343,40 0,38.657 0,37L0,3C-0,1.343 1.343,0 3,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M53.871,13.871h2.153v2.153h-2.153z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M60.33,20.33h5.024v1.435h-5.024z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M63.201,26.789h5.024v1.435h-5.024z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M63.201,23.201h5.024v2.153h-5.024z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M61.766,23.201l-0,5.024l-1.435,0l-0,-5.024z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff002139" android:pathData="M68.225,20.33l-0,4.306l-1.435,0l-0,-4.306z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M52,12h5.895v5.895h-5.895z" android:strokeColor="#ff002139" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M61.33,12h5.895v5.895h-5.895z" android:strokeColor="#ff002139" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M52,21.33h5.895v5.895h-5.895z" android:strokeColor="#ff002139" android:strokeWidth="2.0" android:fillType="evenOdd" />
+</vector>

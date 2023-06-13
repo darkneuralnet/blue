@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/passiveText" android:layout_gravity="center_vertical" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operator_task_search_hint" android:layout_marginStart="50.0dip" />
+    <EditText android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/search" android:background="@drawable/blank_edit_text_background" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="10.0dip" android:inputType="textCapCharacters" android:drawableStart="@drawable/ic_search" android:fontFamily="" android:paddingStart="16.0dip" android:letterSpacing="0.14" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/clear" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_x_circle" android:layout_marginEnd="16.0dip" />
+</androidx.cardview.widget.CardView>

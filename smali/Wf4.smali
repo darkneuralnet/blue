@@ -1,0 +1,27 @@
+.class public final LWf4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final fastscroll_default_thickness:I = 0x7f07012a
+
+.field public static final fastscroll_margin:I = 0x7f07012b
+
+.field public static final fastscroll_minimum_range:I = 0x7f07012c
+
+.field public static final item_touch_helper_max_drag_scroll_per_frame:I = 0x7f070140
+
+.field public static final item_touch_helper_swipe_escape_max_velocity:I = 0x7f070141
+
+.field public static final item_touch_helper_swipe_escape_velocity:I = 0x7f070142
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

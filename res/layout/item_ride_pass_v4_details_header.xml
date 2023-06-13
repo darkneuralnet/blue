@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" app:lottie_autoPlay="true" app:lottie_fileName="lottie/ridepass_ride-esb.json" app:lottie_loop="true" />
+    <TextView android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:maxLines="2" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Headline" />
+    <TextView android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Body" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/TextAppearance.Headline2" />
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="32.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip" style="@style/Divider" />
+</LinearLayout>

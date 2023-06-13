@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.bird.android.widget.standardcomponents.CheckableItemView android:description="@string/issue_status_resolved_description" android:id="@id/resolve" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/issue_status_resolved_title" app:titleColor="@color/mint" />
+    <co.bird.android.widget.standardcomponents.CheckableItemView android:description="@string/issue_status_open_description" android:id="@id/open" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/issue_status_open_title" />
+    <co.bird.android.widget.standardcomponents.CheckableItemView android:description="@string/issue_status_no_repair_description" android:id="@id/dispute" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@string/issue_status_no_repair_title" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:enabled="false" android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/general_update" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+</LinearLayout>

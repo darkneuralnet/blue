@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/heroImage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@id/heroMessage" app:layout_constraintDimensionRatio="H,1.7777:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_loop="true" />
+    <TextView android:textStyle="normal" android:gravity="center_horizontal" android:id="@id/heroMessage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:lineSpacingExtra="7.0sp" android:layout_marginHorizontal="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/heroImage" style="@style/TextAppearance.Headline2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

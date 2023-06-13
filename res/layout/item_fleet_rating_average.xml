@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:background="@drawable/circle_brand_primary" android:padding="10.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="16.0dip" android:backgroundTint="@color/birdTwilight" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_star_7" />
+    <co.bird.android.widget.standardcomponents.LabeledRatingItemView android:id="@id/ratingSection" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toTopOf="@id/description" app:layout_constraintStart_toEndOf="@id/icon" />
+    <TextView android:textColor="@color/passiveText" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toBottomOf="@id/ratingSection" style="@style/TextAppearance.Caption" />
+    <ImageView android:id="@id/chevron" android:layout_width="24.0dip" android:layout_height="24.0dip" android:rotation="90.0" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_chevron_right" />
+</androidx.constraintlayout.widget.ConstraintLayout>

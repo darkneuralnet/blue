@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:stripe="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <co.bird.android.widget.PaymentMethodsView android:id="@id/cardsView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardTextErrorColor="@color/red" app:cardTint="@color/lighterGray" />
+</LinearLayout>

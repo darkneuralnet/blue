@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Виберіть кількість задіяних Birds</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Прискорювач</item>
+        <item>Гальмо</item>
+        <item>Вогні</item>
+        <item>Дзвоник</item>
+        <item>Забезпечити ремонт функцій, що вийшли з ладу</item>
+        <item>Перевірка якості (чи ви відчуваєте себе в безпеці)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Розкрити комбінацію замка.</item>
+        <item>Введіть комбінацію на замку.</item>
+        <item>Натисніть кнопку у верхній частині замка, щоб відкрити.</item>
+        <item>Прикріпіть замок до основи керма Bird.</item>
+    </string-array>
+</resources>

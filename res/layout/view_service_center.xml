@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/locationIcon" android:background="@drawable/ic_location_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/heading" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/primaryText" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" android:letterSpacing="0.02" app:layout_constraintBottom_toTopOf="@id/subheading" app:layout_constraintStart_toEndOf="@id/locationIcon" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/passiveText" android:id="@id/subheading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.02" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/heading" app:layout_constraintTop_toBottomOf="@id/heading" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+.class public final Ll84$r;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ll84;-><init>(LRh6;Landroid/content/Context;Lco/bird/android/model/DynamicLinkConfiguration;LTg6;LAD0;LBQ2;LTq4;LKm1;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function0<",
+        "LZ84<",
+        "Ljava/lang/Boolean;",
+        ">;>;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0010\u0005\u001a\u0010\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0003\u0010\u0004"
+    }
+    d2 = {
+        "LZ84;",
+        "",
+        "kotlin.jvm.PlatformType",
+        "invoke",
+        "()LZ84;",
+        "<anonymous>"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:Ll84;
+
+
+# direct methods
+.method public constructor <init>(Ll84;)V
+    .locals 0
+
+    iput-object p1, p0, Ll84$r;->g:Ll84;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()LZ84;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "LZ84<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, LZ84;->d:LZ84$a;
+
+    iget-object v1, p0, Ll84$r;->g:Ll84;
+
+    invoke-static {v1}, Ll84;->access$getMutableSkipPreload$p(Ll84;)La94;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, LZ84$a;->b(Lio/reactivex/Observable;)LZ84;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Ll84$r;->invoke()LZ84;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Selecciona el número de Birds implicados</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>Más de 5</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Acelerador</item>
+        <item>Freno</item>
+        <item>Luces</item>
+        <item>Timbre</item>
+        <item>Verifica que las funciones dañadas se hayan reparado</item>
+        <item>Prueba De Calidad (¿Se Siente Seguro?)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Revela la combinación de bloqueo.</item>
+        <item>Ingresa la combinación en el bloqueo.</item>
+        <item>Pulsa el botón en la parte superior del bloqueo para abrir.</item>
+        <item>Vuelve a colocar el bloqueo en el cuello del Bird.</item>
+    </string-array>
+</resources>

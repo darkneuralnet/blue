@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.bird.android.widget.CallToActionLayout android:id="@id/callToActionLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:applyDefaultTopMargin="false" app:callToActionText="@string/long_term_rental_confirmed_got_it"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/rental_pickup_confirmed" android:adjustViewBounds="true" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/long_term_rental_confirmed_header" />
+    <TextView android:textAppearance="@style/TextAppearance.Caption" android:textSize="14.0sp" android:gravity="center_horizontal" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" />
+</co.bird.android.widget.CallToActionLayout>

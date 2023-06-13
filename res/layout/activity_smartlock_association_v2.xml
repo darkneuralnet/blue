@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.bird.android.widget.CallToActionLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:callToActionText="@string/smartlock_associate_done"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:background="@color/birdRed" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/smartlock_associate_warning_insert_pin" android:textAllCaps="true" android:letterSpacing="0.1" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_select_lock_purpose_type" android:layout_weight="1.0" style="@style/TextAppearance.Headline2" />
+        <co.bird.android.widget.PillDropdownButton android:layout_gravity="end" android:id="@id/lockPurposeDropdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    </LinearLayout>
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/step_1_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/indicatorContainer" android:layout_alignParentStart="true">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_step_1_title" style="@style/TextAppearance.Uppercase" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/smartlock_associate_step_2_text" style="@style/TextAppearance.Body" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/step1Details" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/step_1_instructions" android:paddingStart="16.0dip">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_lock_token_details" style="@style/TextAppearance.Body" />
+            <TextView android:id="@id/lockTokenDetailsTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineHeight="14.0sp" style="@style/TextAppearance.Caption" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:id="@id/indicatorContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/step_1_instructions" android:layout_alignBottom="@id/step_1_instructions" android:layout_marginStart="48.0dip" android:layout_alignParentEnd="true">
+            <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/rekeyProgress" android:layout_width="24.0dip" android:layout_height="24.0dip" app:indicatorColor="@color/brandAccent" app:indicatorSize="24.0dip" app:trackThickness="2.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/rekeySuccess" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" app:srcCompat="@drawable/ic_check_green" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/unlockStepInstructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/unlockProgress" android:layout_alignParentStart="true">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_step_2_title" style="@style/TextAppearance.Uppercase" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/smartlock_associate_v2_step_2_text" style="@style/TextAppearance.Body" />
+        </LinearLayout>
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/unlockProgress" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_marginStart="48.0dip" android:layout_alignParentEnd="true" app:indicatorColor="@color/brandAccent" app:indicatorSize="24.0dip" app:trackThickness="2.0dip" />
+        <ImageView android:id="@id/unlockSuccess" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_check_green" />
+        <Button android:id="@id/retryUnlockButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/smartlock_associate_retry_unlock" android:layout_below="@id/unlockStepInstructions" android:layout_alignParentStart="true" />
+        <Button android:id="@id/promoteLockTryAgainButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/smartlock_associate_lock_promotion_try_again" android:layout_below="@id/retryUnlockButton" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_toStartOf="@id/retryAssociationButton" android:layout_alignParentStart="true">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_step_3_title" style="@style/TextAppearance.Uppercase" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/smartlock_associate_step_5_text" style="@style/TextAppearance.Body" />
+        </LinearLayout>
+        <Button android:id="@id/scanBirdButton" android:padding="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_step_1_button" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/scanBirdProgress" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_marginStart="48.0dip" android:layout_alignParentEnd="true" app:indicatorColor="@color/brandAccent" app:indicatorSize="24.0dip" app:trackThickness="2.0dip" />
+        <ImageView android:id="@id/scanBirdSuccess" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_check_green" />
+        <Button android:id="@id/retryAssociationButton" android:padding="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_retry_associate_to_bird" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentStart="true">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_step_4_title" style="@style/TextAppearance.Uppercase" />
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/smartlock_associate_mount_lock_text" style="@style/TextAppearance.Body" />
+        </LinearLayout>
+        <Button android:id="@id/markMountedToBird" android:padding="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smartlock_associate_mount_lock_button" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/mountToBirdSuccess" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_check_green" />
+    </RelativeLayout>
+</co.bird.android.widget.CallToActionLayout>

@@ -1,0 +1,137 @@
+package co.bird.android.model.wire.configs;
+
+import co.bird.android.model.LegacyRepairType;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+@Metadata(m28433d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0011\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u000e\n\u0000\b\u0086\b\u0018\u00002\u00020\u0001B-\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0004\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0005\u001a\u00020\u0003\u0012\b\b\u0002\u0010\u0006\u001a\u00020\u0003¢\u0006\u0002\u0010\u0007J\t\u0010\r\u001a\u00020\u0003HÆ\u0003J\t\u0010\u000e\u001a\u00020\u0003HÆ\u0003J\t\u0010\u000f\u001a\u00020\u0003HÆ\u0003J\t\u0010\u0010\u001a\u00020\u0003HÆ\u0003J1\u0010\u0011\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u00032\b\b\u0002\u0010\u0004\u001a\u00020\u00032\b\b\u0002\u0010\u0005\u001a\u00020\u00032\b\b\u0002\u0010\u0006\u001a\u00020\u0003HÆ\u0001J\u0013\u0010\u0012\u001a\u00020\u00032\b\u0010\u0013\u001a\u0004\u0018\u00010\u0001HÖ\u0003J\t\u0010\u0014\u001a\u00020\u0015HÖ\u0001J\t\u0010\u0016\u001a\u00020\u0017HÖ\u0001R\u0016\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u0016\u0010\u0004\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\n\u0010\tR\u0016\u0010\u0005\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u000b\u0010\tR\u0016\u0010\u0006\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\b\n\u0000\u001a\u0004\b\f\u0010\t¨\u0006\u0018"}, m28432d2 = {"Lco/bird/android/model/wire/configs/VehicleInventoryTrackingConfig;", "", "enableCheckIn", "", "enableCheckOut", "enableDropOff", "enablePickUp", "(ZZZZ)V", "getEnableCheckIn", "()Z", "getEnableCheckOut", "getEnableDropOff", "getEnablePickUp", "component1", "component2", "component3", "component4", "copy", "equals", LegacyRepairType.OTHER_KEY, "hashCode", "", "toString", "", "model-wire_release"}, m28431k = 1, m28430mv = {1, 8, 0}, m28428xi = 48)
+/* loaded from: classes4.dex */
+public final class VehicleInventoryTrackingConfig {
+    @JsonProperty("enable_check_in")
+    @InterfaceC41208ft5("enable_check_in")
+    private final boolean enableCheckIn;
+    @JsonProperty("enable_check_out")
+    @InterfaceC41208ft5("enable_check_out")
+    private final boolean enableCheckOut;
+    @JsonProperty("enable_drop_off")
+    @InterfaceC41208ft5("enable_drop_off")
+    private final boolean enableDropOff;
+    @JsonProperty("enable_pick_up")
+    @InterfaceC41208ft5("enable_pick_up")
+    private final boolean enablePickUp;
+
+    public VehicleInventoryTrackingConfig() {
+        this(false, false, false, false, 15, null);
+    }
+
+    public static /* synthetic */ VehicleInventoryTrackingConfig copy$default(VehicleInventoryTrackingConfig vehicleInventoryTrackingConfig, boolean z, boolean z2, boolean z3, boolean z4, int i, Object obj) {
+        if ((i & 1) != 0) {
+            z = vehicleInventoryTrackingConfig.enableCheckIn;
+        }
+        if ((i & 2) != 0) {
+            z2 = vehicleInventoryTrackingConfig.enableCheckOut;
+        }
+        if ((i & 4) != 0) {
+            z3 = vehicleInventoryTrackingConfig.enableDropOff;
+        }
+        if ((i & 8) != 0) {
+            z4 = vehicleInventoryTrackingConfig.enablePickUp;
+        }
+        return vehicleInventoryTrackingConfig.copy(z, z2, z3, z4);
+    }
+
+    public final boolean component1() {
+        return this.enableCheckIn;
+    }
+
+    public final boolean component2() {
+        return this.enableCheckOut;
+    }
+
+    public final boolean component3() {
+        return this.enableDropOff;
+    }
+
+    public final boolean component4() {
+        return this.enablePickUp;
+    }
+
+    public final VehicleInventoryTrackingConfig copy(boolean z, boolean z2, boolean z3, boolean z4) {
+        return new VehicleInventoryTrackingConfig(z, z2, z3, z4);
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof VehicleInventoryTrackingConfig) {
+            VehicleInventoryTrackingConfig vehicleInventoryTrackingConfig = (VehicleInventoryTrackingConfig) obj;
+            return this.enableCheckIn == vehicleInventoryTrackingConfig.enableCheckIn && this.enableCheckOut == vehicleInventoryTrackingConfig.enableCheckOut && this.enableDropOff == vehicleInventoryTrackingConfig.enableDropOff && this.enablePickUp == vehicleInventoryTrackingConfig.enablePickUp;
+        }
+        return false;
+    }
+
+    public final boolean getEnableCheckIn() {
+        return this.enableCheckIn;
+    }
+
+    public final boolean getEnableCheckOut() {
+        return this.enableCheckOut;
+    }
+
+    public final boolean getEnableDropOff() {
+        return this.enableDropOff;
+    }
+
+    public final boolean getEnablePickUp() {
+        return this.enablePickUp;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r0v1, types: [int] */
+    /* JADX WARN: Type inference failed for: r0v8 */
+    /* JADX WARN: Type inference failed for: r0v9 */
+    /* JADX WARN: Type inference failed for: r2v0, types: [boolean] */
+    /* JADX WARN: Type inference failed for: r2v2, types: [boolean] */
+    public int hashCode() {
+        boolean z = this.enableCheckIn;
+        ?? r0 = z;
+        if (z) {
+            r0 = 1;
+        }
+        int i = r0 * 31;
+        ?? r2 = this.enableCheckOut;
+        int i2 = r2;
+        if (r2 != 0) {
+            i2 = 1;
+        }
+        int i3 = (i + i2) * 31;
+        ?? r22 = this.enableDropOff;
+        int i4 = r22;
+        if (r22 != 0) {
+            i4 = 1;
+        }
+        int i5 = (i3 + i4) * 31;
+        boolean z2 = this.enablePickUp;
+        return i5 + (z2 ? 1 : z2 ? 1 : 0);
+    }
+
+    public String toString() {
+        boolean z = this.enableCheckIn;
+        boolean z2 = this.enableCheckOut;
+        boolean z3 = this.enableDropOff;
+        boolean z4 = this.enablePickUp;
+        return "VehicleInventoryTrackingConfig(enableCheckIn=" + z + ", enableCheckOut=" + z2 + ", enableDropOff=" + z3 + ", enablePickUp=" + z4 + ")";
+    }
+
+    public VehicleInventoryTrackingConfig(boolean z, boolean z2, boolean z3, boolean z4) {
+        this.enableCheckIn = z;
+        this.enableCheckOut = z2;
+        this.enableDropOff = z3;
+        this.enablePickUp = z4;
+    }
+
+    public /* synthetic */ VehicleInventoryTrackingConfig(boolean z, boolean z2, boolean z3, boolean z4, int i, DefaultConstructorMarker defaultConstructorMarker) {
+        this((i & 1) != 0 ? false : z, (i & 2) != 0 ? false : z2, (i & 4) != 0 ? false : z3, (i & 8) != 0 ? false : z4);
+    }
+}

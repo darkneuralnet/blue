@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>تحديد عدد مركبات Birds المعنية</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>المسرّع</item>
+        <item>الفرامل</item>
+        <item>أضواء</item>
+        <item>الجرس</item>
+        <item>تحقق من إصلاح الوظائف المعطوبة</item>
+        <item>فحص الجودة (هل هو آمن)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>إظهار مزيج القفل.</item>
+        <item>أدخل تشكيلة الأرقام في القفل.</item>
+        <item>اضغط على الزر في أعلى القفل للفتح.</item>
+        <item>أعد ربط القفل بعنق سكوتر Bird.</item>
+    </string-array>
+</resources>

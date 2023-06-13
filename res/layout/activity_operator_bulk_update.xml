@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bulkActionRecyclerView" android:background="@color/subtleGray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/divider" />
+    <View android:id="@id/divider" android:layout_above="@id/updateButton" style="@style/Divider" />
+    <Button android:id="@id/updateButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/operator_bulk_scanner_update_button" android:layout_alignParentBottom="true" style="@style/PrimaryButton" />
+</RelativeLayout>

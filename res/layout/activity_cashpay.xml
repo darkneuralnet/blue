@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center" android:id="@id/textOverlay" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" android:letterSpacing="0.03" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:indeterminate="true" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttonContainer">
+        <LinearLayout android:orientation="vertical" android:id="@id/mainContainer" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cashpay_add_header" android:letterSpacing="0.03" android:lineHeight="22.0sp" />
+            <TextView android:id="@id/bodyText1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cashpay_add_body_1" style="@style/TextAppearance.Caption" />
+            <TextView android:id="@id/bodyText2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/cashpay_add_body_2" style="@style/TextAppearance.Caption" />
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <ImageView android:id="@id/barcode" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+                <TextView android:gravity="center_horizontal" android:id="@id/barcodeText" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Caption" />
+                <ImageView android:id="@id/cashpayVendorBadge" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@color/dividerColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <Button android:enabled="true" android:textSize="14.0sp" android:id="@id/findRetailers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/cashpay_find_retailers" style="@style/HollowButton" />
+    </LinearLayout>
+</RelativeLayout>

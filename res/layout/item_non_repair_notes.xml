@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co.bird.android.widget.EditTextBox android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:hint="@string/repair_non_repair_note_hint" android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

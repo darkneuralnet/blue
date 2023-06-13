@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintTop_toTopOf="parent" style="@style/ServiceCenterTabLayout" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/chargeContainer" app:layout_constraintTop_toBottomOf="@id/tabs" />
+    <LinearLayout android:gravity="center" android:id="@id/chargeContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" app:layout_constraintBottom_toTopOf="@id/buttonContainer">
+        <ImageView android:id="@id/chargeIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/white" />
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/TextAppearance.Headline2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonContainer" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:elevation="4.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <Button android:id="@id/nextStep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
+        <Button android:id="@id/reroute" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-12.0dip" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/routing_on_rails_reroute" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/TextButton" />
+    </LinearLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:elevation="8.0dip" app:elevation="8.0dip" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

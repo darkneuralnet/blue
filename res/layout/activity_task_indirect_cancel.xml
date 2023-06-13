@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:enabled="false" android:textSize="16.0sp" android:id="@id/submitButton" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/task_indirect_cancel_submit_request" android:layout_alignParentBottom="true" />
+    <EditText android:textSize="14.0sp" android:gravity="start|center|top" android:id="@id/reason" android:background="@drawable/feedback" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/task_indirect_cancel_reason_hint" android:layout_above="@id/submitButton" android:layout_alignParentTop="true" android:inputType="textMultiLine" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

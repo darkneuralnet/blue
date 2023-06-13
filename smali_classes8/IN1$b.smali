@@ -1,0 +1,131 @@
+.class public final LIN1$b;
+.super LIN1;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LIN1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<ResponseT:",
+        "Ljava/lang/Object;",
+        ">",
+        "LIN1<",
+        "TResponseT;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final d:Ly80;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ly80<",
+            "TResponseT;",
+            "Lx80<",
+            "TResponseT;>;>;"
+        }
+    .end annotation
+.end field
+
+.field public final e:Z
+
+
+# direct methods
+.method public constructor <init>(LKI4;Lokhttp3/Call$Factory;LsB0;Ly80;Z)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LKI4;",
+            "Lokhttp3/Call$Factory;",
+            "LsB0<",
+            "Lokhttp3/ResponseBody;",
+            "TResponseT;>;",
+            "Ly80<",
+            "TResponseT;",
+            "Lx80<",
+            "TResponseT;>;>;Z)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2, p3}, LIN1;-><init>(LKI4;Lokhttp3/Call$Factory;LsB0;)V
+
+    iput-object p4, p0, LIN1$b;->d:Ly80;
+
+    iput-boolean p5, p0, LIN1$b;->e:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public c(Lx80;[Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lx80<",
+            "TResponseT;>;[",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    iget-object v0, p0, LIN1$b;->d:Ly80;
+
+    invoke-interface {v0, p1}, Ly80;->b(Lx80;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lx80;
+
+    array-length v0, p2
+
+    add-int/lit8 v0, v0, -0x1
+
+    aget-object p2, p2, v0
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    :try_start_0
+    iget-boolean v0, p0, LIN1$b;->e:Z
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p1, p2}, LBl2;->b(Lx80;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    invoke-static {p1, p2}, LBl2;->a(Lx80;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    :goto_0
+    return-object p1
+
+    :catch_0
+    move-exception p1
+
+    invoke-static {p1, p2}, LBl2;->d(Ljava/lang/Exception;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

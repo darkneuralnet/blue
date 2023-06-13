@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:paddingLeft="@dimen/activity_horizontal_margin_large" android:paddingRight="@dimen/activity_horizontal_margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="10.0dip" android:paddingHorizontal="@dimen/activity_horizontal_margin_large" style="@style/TextAppearance.Caption.Bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

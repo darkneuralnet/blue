@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/previewContainer" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_centerInParent="true">
+        <ViewStub android:id="@id/previewStub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/cardBackLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_centerHorizontal="true" app:srcCompat="@drawable/ic_idcardbackimage" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/instruction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/driver_license_scan_back_instruction" android:layout_above="@id/previewContainer" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/troubleLayout" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/primaryText" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/troubleInfo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/driver_license_scan_trouble" />
+        <Button android:gravity="center" android:id="@id/takePhotoButton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/driver_license_take_photo" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="@style/PrimaryButton" />
+        <Button android:gravity="center" android:id="@id/helpButton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:text="@string/driver_license_get_help" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" style="@style/SecondaryButton" />
+    </LinearLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+</RelativeLayout>

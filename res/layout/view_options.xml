@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/what_happened" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/checkContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <ImageView android:id="@id/checkIconGray" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_check_gray" />
+            <ImageView android:id="@id/checkIconGreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" app:srcCompat="@drawable/ic_check_green" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/optionsContainer" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+</merge>

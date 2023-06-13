@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Selecione o número de Birds envolvidas</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>+ 5</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Acelerador</item>
+        <item>Freio</item>
+        <item>Faróis</item>
+        <item>Buzina</item>
+        <item>Garantir o conserto das funções danificadas</item>
+        <item>Verificação de qualidade (a Bird parece segura?)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Revelar a combinação do cadeado.</item>
+        <item>Inserir a combinação no cadeado.</item>
+        <item>Pressione o botão no topo do cadeado para abrir.</item>
+        <item>Recoloque o cadeado na haste da Bird.</item>
+    </string-array>
+</resources>

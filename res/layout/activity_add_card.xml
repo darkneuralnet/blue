@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <co.bird.android.widget.DrawableView android:layout_gravity="center_horizontal" android:id="@id/cardImage" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/ic_card_front" android:adjustViewBounds="true" app:drawableColor="@color/colorAccent" />
+    <RelativeLayout android:id="@id/scanCardRow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_card_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/brandAccent" android:gravity="center_vertical" android:id="@id/scanCard" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/add_card_scan" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginEnd="@dimen/activity_horizontal_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.stripe.android.view.CardMultilineWidget android:theme="@style/AdyenCardComponent" android:id="@id/stripeCardZipInput" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.stripe.android.view.CardInputWidget android:id="@id/stripeCardInput" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" app:shouldRequirePostalCode="false" app:shouldShowPostalCode="false" />
+                    <com.stripe.android.view.ShippingInfoWidget android:id="@id/stripeFullAddress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <com.adyen.checkout.card.CardView android:theme="@style/AdyenCardComponent" android:id="@id/adyenCardView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/dobTextInputLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/birthday_or_corporate_reg_required_title" android:layout_marginHorizontal="16.0dip" app:boxStrokeColor="@color/primaryText" app:hintTextColor="@color/primaryText" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:textSize="14.0sp" android:gravity="start|center" android:id="@id/dobEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" android:textDirection="locale" android:textAlignment="gravity" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/passwordTextInputLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:hint="@string/first_two_digits_password_required_title" android:layout_marginHorizontal="16.0dip" app:boxStrokeColor="@color/primaryText" app:hintTextColor="@color/primaryText" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                <com.google.android.material.textfield.TextInputEditText android:textSize="14.0sp" android:gravity="start|center" android:id="@id/passwordEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" android:textDirection="locale" android:textAlignment="gravity" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

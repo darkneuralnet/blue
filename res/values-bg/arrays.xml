@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Изберете брой на участващи Birds</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Ускорител</item>
+        <item>Спирачка</item>
+        <item>Светлини</item>
+        <item>Звънец</item>
+        <item>Уверете се, че поправката е успешна</item>
+        <item>Проверка на качеството (изглежда ли безопасно)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Разкриване на комбинация за заключване.</item>
+        <item>Въведете комбинацията при заключване.</item>
+        <item>Натиснете бутона в горната част на ключалката, за да отворите.</item>
+        <item>Поставете отново ключалката на Bird.</item>
+    </string-array>
+</resources>

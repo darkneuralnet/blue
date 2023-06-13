@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/command_center_work_order_title" android:layout_marginStart="@dimen/activity_horizontal_margin" app:layout_constraintEnd_toStartOf="@id/status" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Headline2" />
+    <TextView android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/command_center_work_order_status_open" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBaseline_toBaselineOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/title" style="@style/TextAppearance.Caption" />
+    <TextView android:id="@id/issues" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/status" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/TextAppearance.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

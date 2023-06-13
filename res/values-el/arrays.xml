@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Επιλέξτε τον αριθμό των Birds που εμπλέκονται</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Επιταχυντής</item>
+        <item>Φρένο</item>
+        <item>Φώτα</item>
+        <item>Κουδούνι</item>
+        <item>Βεβαιωθείτε ότι επιδιορθώθηκαν οι λειτουργίες βλάβης</item>
+        <item>Έλεγχος ποιότητας (αισθάνεστε ασφαλής)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Προβολή του συνδυασμού κλειδώματος.</item>
+        <item>Εισαγάγετε τον συνδυασμό στην κλειδαριά.</item>
+        <item>Πατήστε το κουμπί στην κορυφή της κλειδαριάς για να ανοίξει.</item>
+        <item>Επανασυνδέστε την κλειδαριά στον στύλο του Bird.</item>
+    </string-array>
+</resources>

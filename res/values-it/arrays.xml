@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Seleziona il numero di Birds coinvolti</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>Oltre 5</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Acceleratore</item>
+        <item>Freno</item>
+        <item>Luci</item>
+        <item>Campanello</item>
+        <item>Assicurati che le parti danneggiate e riparate funzionino</item>
+        <item>Controllo qualità (soddisfa i requisiti di sicurezza)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Rivela la combinazione del lucchetto.</item>
+        <item>Inserisci la combinazione nel dispositivo.</item>
+        <item>Premi il pulsante sulla parte superiore del lucchetto per aprirlo.</item>
+        <item>Riaggancia il lucchetto al piantone del Bird.</item>
+    </string-array>
+</resources>

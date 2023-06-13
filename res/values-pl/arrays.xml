@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>Wybierz liczbę zaangażowanych Birds</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>Manetka gazu</item>
+        <item>Hamulec</item>
+        <item>Światła</item>
+        <item>Dzwonek</item>
+        <item>Zapewnij naprawę uszkodzonych funkcji</item>
+        <item>Kontrola jakości (czy wydaje się bezpieczny)</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>Pokaż kombinację blokady.</item>
+        <item>Wprowadź kod dostępu na blokadzie.</item>
+        <item>Aby otworzyć, naciśnij przycisk na górze blokady.</item>
+        <item>Ponownie podłącz blokadę do szyjki podestu Bird.</item>
+    </string-array>
+</resources>

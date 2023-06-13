@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:paddingBottom="4.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="46.0dip" android:layout_height="50.0dip" android:paddingHorizontal="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.bird.android.widget.FleetMarkerPin android:id="@id/pin" android:layout_width="40.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:tint="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/white" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">Fadlan dhamaystir %d ka sii deymaha qariirada si aad u furto buulal badan.</item>
+        <item quantity="one">Fadlan dhamaystir %d ka siideynta qariirada si aad u furto buulal badan.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">Bird Doomaha biyaha</item>
+        <item quantity="one">Bird Doonta Raaxada</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds Qabtay</item>
+        <item quantity="one">%d Bird Qabtay</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d Birds lagu soo dalacay</item>
+        <item quantity="zero">0 Birds lagu soo dalacay</item>
+        <item quantity="one">1 Bird lagu soo dalacay</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">%d Cilado ayaa la helay</item>
+        <item quantity="one">%d Cilad ayaa la helay</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">%d oo iskaano ah ayaa lagu guuldareystay</item>
+        <item quantity="one">Iskaan gareenta %d waa lagu guuldareystay</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">Ma rabtaa in hoonka ka yeeriso %d gawaarida la sawiray??</item>
+        <item quantity="one">Ma rabtaa in hoonka ka yeeriso %d gawaarida la sawiray?</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d qaybo cusub ayaa la qoray.</item>
+        <item quantity="one">%d qaybo cusub ayaa la qoray.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">%s Mootooyinka yaryar</item>
+        <item quantity="one">%s Mooto yar</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">%s Iskuutaro</item>
+        <item quantity="one">%s Iskuutar</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">Wuxuu dhacaa %d maalmood kadib</item>
+        <item quantity="one">Wuxuu dhacaa %d maalin kadib</item>
+        <item quantity="two">Wuxuu dhacaa %d maalmood kadib</item>
+        <item quantity="few">Wuxuu dhacaa %d maalmood kadib</item>
+        <item quantity="many">Wuxuu dhacaa %d maalmood kadib</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birdsdoortay</item>
+        <item quantity="one">%d Birddoortay</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">Waxay u muuqataa in dalabkan uu ka maqan yahay alaabta %d. Si looga shaqeeyo Dalabkan SKU hadda, waxaad u baahan thaay inaad ogeysiisaa Silsilada Sahayda (Supply Chain) alabtaa maqan adigoo bilaabaya baaritaan.</item>
+        <item quantity="one">Waxay u muuqataa in dalabkan uu ka maqan yahay alaabta %d . Si looga shaqeeyo Dalabkan SKU hadda, waxaad u baahan thaay inaad ogeysiisaa Silsilada Sahayda (Supply Chain) alabtaa maqan adigoo bilaabaya baaritaan.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(%d maalmood ayuu soo hormaray)</item>
+        <item quantity="one">(%d maalin ayuu soo hormaray)</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(%d maalmood ayuu daahay)</item>
+        <item quantity="one">(%d maalin ayuu daahay)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(%d saacadood ayuu soo hormaray)</item>
+        <item quantity="one">(%d saacad ayuu soo hormaray)</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(%d saacadood ayuu daahay)</item>
+        <item quantity="one">(%d saacad ayuu daahay)</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">Sii daa %d Gawaari</item>
+        <item quantity="zero">Sii daa 0 gawaari</item>
+        <item quantity="one">Sii daa 1 Gaari</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">Qabo %d gawaari</item>
+        <item quantity="zero">Qabo 0 Gaari</item>
+        <item quantity="one">Qabo 1 Gaari</item>
+    </plurals>
+</resources>

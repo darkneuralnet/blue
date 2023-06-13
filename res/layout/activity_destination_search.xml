@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="0.0dip" android:layout_height="?actionBarSize" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/AppBarThemeOverlay" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_close" app:title="Set Destination" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.card.MaterialCardView android:id="@id/search_input_container" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/appBarLayout">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/search_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_search" />
+            <EditText android:ellipsize="end" android:id="@id/search_et" android:background="@null" android:layout_width="0.0dip" android:layout_height="40.0dip" android:hint="@string/destination_address_input_hint" android:maxLines="1" android:ems="10" android:singleLine="true" android:selectAllOnFocus="true" android:drawablePadding="14.0dip" android:inputType="textPostalAddress" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/clear_input_icon_container" app:layout_constraintStart_toEndOf="@id/search_icon" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Caption">
+                <requestFocus />
+            </EditText>
+            <FrameLayout android:id="@id/clear_input_icon_container" android:background="?selectableItemBackground" android:layout_width="48.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" app:srcCompat="@drawable/ic_x_circle" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/address_recycler" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/search_input_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

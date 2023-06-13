@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cannot_access_number_of_birds_options">
+        <item>选择相关的 Birds 数量</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5+</item>
+    </string-array>
+    <string-array name="certify_repair_items">
+        <item>油门</item>
+        <item>刹车</item>
+        <item>灯</item>
+        <item>铃</item>
+        <item>确保损坏的功能已修复</item>
+        <item>质量检查（感觉是否安全）</item>
+    </string-array>
+    <string-array name="physical_lock_blurred_code_unlock_fallback_instructions">
+        <item>显示车锁密码。</item>
+        <item>在车锁上输入密码。</item>
+        <item>按下车锁顶部的按钮，以打开车锁。</item>
+        <item>将车锁重新连接到Bird颈部。</item>
+    </string-array>
+</resources>

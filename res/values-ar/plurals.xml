@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bird_delivery_force_charger_delivery_modal_body">
+        <item quantity="other">الرجاء إكمال %d تحرير من الخريطة لفتح المزيد من أركان الإيقاف.</item>
+        <item quantity="one">الرجاء إكمال تحرير %d من الخريطة لفتح المزيد من أركان الإيقاف.</item>
+    </plurals>
+    <plurals name="bird_moped_name">
+        <item quantity="other">مركبات Bird Cruiser</item>
+        <item quantity="one">Bird Cruiser</item>
+    </plurals>
+    <plurals name="bird_scooter_name">
+        <item quantity="other">Birds</item>
+        <item quantity="one">Bird</item>
+    </plurals>
+    <plurals name="charger_drop_feedback_bird_count">
+        <item quantity="other">%d Birds</item>
+        <item quantity="one">%d Bird</item>
+    </plurals>
+    <plurals name="charger_task_limit_reached_dialog_header">
+        <item quantity="other">%d Birds تم التقاطها</item>
+        <item quantity="one">%d Bird تم التقاطها</item>
+    </plurals>
+    <plurals name="earning_task_count_message">
+        <item quantity="other">%d من مركبات Birds مشحونة</item>
+        <item quantity="zero">0 Birds مشحون</item>
+        <item quantity="one">1 Bird سكوتر واحد مشحون</item>
+    </plurals>
+    <plurals name="health_check_issues_found_label">
+        <item quantity="other">تم العثور على %d من المشكلات</item>
+        <item quantity="one">تم العثور على %d مشكلة</item>
+    </plurals>
+    <plurals name="inventory_scanning_unidentified_scans">
+        <item quantity="other">أخفقت %d من عمليات المسح الضوئي</item>
+        <item quantity="one">فشل المسح الضوئي لـ %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">في %d يوم</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">في %d ساعة</item>
+        <item quantity="one">في ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">في %d دقيقة</item>
+        <item quantity="one">في دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">في %d ثانية</item>
+        <item quantity="one">في ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="one">قبل دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">قبل %d ثانية</item>
+        <item quantity="one">قبل ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d من الساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d من الدقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d من الثواني</item>
+        <item quantity="one">ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">في %d يوم</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">في %d ساعة</item>
+        <item quantity="one">في ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">في %d دقيقة</item>
+        <item quantity="one">في دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">في %d ثانية</item>
+        <item quantity="one">في ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="one">قبل دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">قبل %d ثانية</item>
+        <item quantity="one">قبل ثانية واحدة</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="multi_nest_claim_confirmation_dialog">
+        <item quantity="other">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="one">@string/multi_nest_claim_confirmation_dialog_one</item>
+        <item quantity="two">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="few">@string/multi_nest_claim_confirmation_dialog_many</item>
+        <item quantity="many">@string/multi_nest_claim_confirmation_dialog_many</item>
+    </plurals>
+    <plurals name="operator_bulk_update_chirp_message">
+        <item quantity="other">هل تريد إصدار تغريدة بـ %d مركبات ممسوحة ضوئيًا؟</item>
+        <item quantity="one">هل تريد إصدار تغريدة بـ %d مركبات ممسوحة ضوئيًا؟</item>
+    </plurals>
+    <plurals name="operator_inventory_inventory_recorded_label">
+        <item quantity="other">%d جزء جديد مسجل.</item>
+        <item quantity="one">%d جزء جديد مسجل.</item>
+    </plurals>
+    <plurals name="partner_moped_name">
+        <item quantity="other">دراجات صغيرة %s</item>
+        <item quantity="one">دراجة صغيرة %s</item>
+    </plurals>
+    <plurals name="partner_scooter_name">
+        <item quantity="other">مركبات سكوتر %s</item>
+        <item quantity="one">سكوتر %s</item>
+    </plurals>
+    <plurals name="promo_center_coupon_expires_in_number_of_days">
+        <item quantity="other">تنتهي في غضون %d أيام</item>
+        <item quantity="one">تنتهي في غضون %d يوم</item>
+        <item quantity="two">تنتهي في غضون %d أيام</item>
+        <item quantity="few">تنتهي في غضون %d أيام</item>
+        <item quantity="many">تنتهي في غضون %d أيام</item>
+    </plurals>
+    <plurals name="report_fraud_birds_selected_infotext">
+        <item quantity="other">%d Birds تم اختيارها</item>
+        <item quantity="one">%d Bird تم اختيارها</item>
+    </plurals>
+    <plurals name="sku_scan_start_investigation_message">
+        <item quantity="other">يبدو أن %d من العناصر المفقودة في هذا الطلب. لمعالجة طلب وحدة الاحتفاظ بالمخزون هذا الآن، عليك إبلاغ سلسلة التوريد عن هذا العنصر المفقود من خلال بدء تحقيق.</item>
+        <item quantity="one">يبدو أن عنصرًا واحدًا (%d) مفقود في هذا الطلب. لمعالجة طلب وحدة الاحتفاظ بالمخزون هذا الآن، عليك إبلاغ سلسلة التوريد عن هذا العنصر المفقود من خلال بدء تحقيق.</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_early">
+        <item quantity="other">(مبكر بمقدار %d من الأيام)</item>
+        <item quantity="one">(مبكر بمقدار يوم واحد (%d))</item>
+    </plurals>
+    <plurals name="transfer_order_time_day_late">
+        <item quantity="other">(متأخر بمقدار %d من الأيام)</item>
+        <item quantity="one">(متأخر بمقدار يوم واحد (%d))</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_early">
+        <item quantity="other">(مبكر بمقدار %d من الساعات)</item>
+        <item quantity="one">(مبكر بمقدار ساعة واحدة (%d))</item>
+    </plurals>
+    <plurals name="transfer_order_time_hour_late">
+        <item quantity="other">(متأخر بمقدار %d من الساعات)</item>
+        <item quantity="one">(متأخر بمقدار ساعة واحدة (%d))</item>
+    </plurals>
+    <plurals name="trip_stop_detail_drop_off_x_vehicles_label">
+        <item quantity="other">تحرير %d مركبات</item>
+        <item quantity="zero">عدم تحرير أي مركبة</item>
+        <item quantity="one">تحرير مركبة واحدة</item>
+    </plurals>
+    <plurals name="trip_stop_detail_pick_up_x_vehicles_label">
+        <item quantity="other">التقاط %d مركبات</item>
+        <item quantity="zero">عدم التقاط أي مركبة</item>
+        <item quantity="one">التقاط مركبة واحدة</item>
+    </plurals>
+</resources>

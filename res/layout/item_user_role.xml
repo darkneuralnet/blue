@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?navigationUserRoleRowBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Uppercase3" android:textColor="?navigationColorControlNormal" android:id="@id/roleTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:background="@color/lightGray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/roleTitle" />
+</RelativeLayout>

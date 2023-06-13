@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_filled_flyer_logo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" android:layout_toEndOf="@id/image">
+        <TextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charger_banner_level_up_to_silver_flyer_title" android:maxLines="2" style="@style/TextAppearance.Caption.Bold" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charger_banner_level_up_to_silver_flyer_body" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/xButton" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_gray_x_transparent" />
+</RelativeLayout>

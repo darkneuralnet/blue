@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <Button android:textColor="@color/primary_text_state_list" android:id="@id/gPay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ride_pass_purchase_google_pay" android:drawableStart="@drawable/google_pay_drawable" style="@style/WhiteRectButtonWithEndChevron" />
+    <Button android:textColor="@color/primary_text_state_list" android:id="@id/cardPay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ride_pass_purchase_card_pay" android:drawableStart="@drawable/credit_card_drawable" style="@style/WhiteRectButtonWithEndChevron" />
+    <Button android:textColor="@color/primary_text_state_list" android:id="@id/paypal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ride_pass_purchase_paypal" android:drawableStart="@drawable/paypal_drawable" style="@style/WhiteRectButtonWithEndChevron" />
+</LinearLayout>

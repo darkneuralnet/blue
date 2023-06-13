@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_arrow_left_white" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/countText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <Button android:id="@id/releaseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nest_release_birds" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+</RelativeLayout>

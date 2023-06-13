@@ -1,0 +1,103 @@
+.class public final LY75$m;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LY75;-><init>(Lco/bird/android/core/mvp/BaseActivity;LTo2;LF5;LDt6;LTq4;LJf;Lbg;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lco/bird/android/widget/InfoPillLinearLayout;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0001\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "Lco/bird/android/widget/InfoPillLinearLayout;",
+        "b",
+        "()Lco/bird/android/widget/InfoPillLinearLayout;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic g:LY75;
+
+
+# direct methods
+.method public constructor <init>(LY75;)V
+    .locals 0
+
+    iput-object p1, p0, LY75$m;->g:LY75;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b()Lco/bird/android/widget/InfoPillLinearLayout;
+    .locals 2
+
+    iget-object v0, p0, LY75$m;->g:LY75;
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, LY75;->access$setFrequentFlyerStatusInflated$p(LY75;Z)V
+
+    iget-object v0, p0, LY75$m;->g:LY75;
+
+    invoke-static {v0}, LY75;->access$getBinding$p(LY75;)LF5;
+
+    move-result-object v0
+
+    iget-object v0, v0, LF5;->o:Landroid/view/ViewStub;
+
+    invoke-virtual {v0}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
+
+    move-result-object v0
+
+    const-string v1, "null cannot be cast to non-null type co.bird.android.widget.InfoPillLinearLayout"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Lco/bird/android/widget/InfoPillLinearLayout;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, LY75$m;->b()Lco/bird/android/widget/InfoPillLinearLayout;
+
+    move-result-object v0
+
+    return-object v0
+.end method
