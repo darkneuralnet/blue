@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:background="@drawable/flat_card_sub_item_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="12.0dip" />
-    <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" android:layout_marginHorizontal="8.0dip" style="@style/TextAppearance.Caption" />
-    <ImageView android:id="@id/chevron" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_chevron_right" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/ic_map_pin_selected_template" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center_horizontal" android:id="@id/overrideImage" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:src="@color/red" android:scaleType="centerCrop" app:shapeAppearanceOverlay="@style/ShapeableCircle" />
-    <ImageView android:id="@id/pinOverlayIcon" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="4.0dip" android:scaleType="centerCrop" android:layout_marginStart="4.0dip" />
-</FrameLayout>

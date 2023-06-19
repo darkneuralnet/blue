@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="center" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_turn_on_title" style="@style/TextAppearance.Headline2" />
-    <TextView android:gravity="center_horizontal" android:id="@id/defaultMessage" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_turn_on_message" style="@style/TextAppearance.Caption" />
-    <TextView android:gravity="center_horizontal" android:id="@id/physicalLockMessage" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/location_permissions_disabled_body" style="@style/TextAppearance.Caption" />
-    <Button android:textColor="@color/white" android:id="@id/turnOn" android:background="@color/birdNewRoad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/turn_on_action" style="@style/PrimaryButton" />
-</LinearLayout>

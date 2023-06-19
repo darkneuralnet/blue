@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_large" android:layout_marginRight="@dimen/activity_horizontal_margin_large" android:text="@string/add_money_to_your_account" android:layout_marginHorizontal="@dimen/activity_horizontal_margin_large" style="@style/TextAppearance.Headline" />
-    <TextView android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_large" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin_large" android:text="@string/select_amount" android:layout_marginHorizontal="@dimen/activity_horizontal_margin_large" style="@style/TextAppearance.Body" />
-</LinearLayout>

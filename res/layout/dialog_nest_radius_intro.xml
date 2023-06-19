@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_nest_radius" />
-    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/nest_radius_intro_title" />
-    <TextView android:textSize="16.0sp" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mainText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/nest_radius_intro_message" style="@style/TextAppearance.AppCompat.Subhead" />
-    <Button android:textSize="16.0sp" android:id="@id/confirmButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/complaints_dialog_confirm" />
-</LinearLayout>

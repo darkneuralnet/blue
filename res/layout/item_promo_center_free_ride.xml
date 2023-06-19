@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:text="@string/promo_center_coupon_empty_state_header" />
-    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/colorPrimary" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
-    <Button android:id="@id/sendButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/free_rides_send" android:drawableStart="@drawable/ic_share" android:paddingStart="14.0dip" android:paddingEnd="20.0dip" android:drawableTint="@color/birdWhite" style="@style/PrimaryButton" />
-    <Button android:id="@id/copyButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/g1g1_copy" android:paddingStart="14.0dip" android:paddingEnd="20.0dip" style="@style/SecondaryButton" />
-</LinearLayout>

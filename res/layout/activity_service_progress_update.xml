@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/background" />
-    <FrameLayout android:id="@id/background" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="4.0dip" app:elevation="4.0dip">
-        <Button android:enabled="false" android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/submitButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/service_center_status_statuses_cta" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
-    </FrameLayout>
-    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="top" android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@id/root" android:background="@color/brandAccent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <include layout="@layout/layout_receipt_merchant_info" />
-        <include layout="@layout/layout_receipt_amount_info" />
-        <include layout="@layout/layout_receipt_support" />
-    </LinearLayout>
-</ScrollView>

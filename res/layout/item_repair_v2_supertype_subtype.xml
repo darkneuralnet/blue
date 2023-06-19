@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheckBox android:enabled="false" android:textAppearance="@style/TextAppearance.Caption" android:textColor="@color/subtype_color_state_list" android:gravity="center_vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/subtype_checkbox" android:paddingStart="10.0dip" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" android:buttonTint="@color/subtype_color_state_list"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

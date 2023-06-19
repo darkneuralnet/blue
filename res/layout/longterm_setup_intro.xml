@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<co.bird.android.widget.CallToActionLayout android:id="@id/callToActionLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:applyDefaultTopMargin="false" app:callToActionText="@string/general_next_button" app:secondaryCallToActionText="@string/long_term_rental_learn_more"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/introHeaderBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/long_term_rental_intro" android:adjustViewBounds="true" />
-    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="24.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" />
-    <LinearLayout android:orientation="vertical" android:id="@id/productPoints" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
-</co.bird.android.widget.CallToActionLayout>

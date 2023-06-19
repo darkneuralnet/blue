@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textColor="@color/primaryText" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" style="@style/TextAppearance.Headline" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_marginBottom="12.0dip" style="?android:progressBarStyleHorizontal" />
-    <TextView android:textColor="@color/passiveText" android:layout_gravity="center" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Caption" />
-</merge>

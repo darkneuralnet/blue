@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<co.bird.android.widget.CallToActionLayout android:id="@id/callToActionLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:callToActionText="@string/on_demand_setup_continue"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/on_demand_intro_birds" android:adjustViewBounds="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
-    <TextView android:textAppearance="@style/TextAppearance.Headline" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/on_demand_setup_intro_header" />
-    <TextView android:textAppearance="@style/TextAppearance.Caption" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/on_demand_setup_intro_content" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
-    <LinearLayout android:orientation="vertical" android:id="@id/productPoints" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
-</co.bird.android.widget.CallToActionLayout>

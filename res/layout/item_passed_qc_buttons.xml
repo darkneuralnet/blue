@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/primaryButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quality_control_ready_to_ride" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/PrimaryButton" />
-    <Button android:textAppearance="@style/TextAppearance.Uppercase2" android:id="@id/secondaryButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin_small" android:text="@string/quality_control_still_damaged" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" style="@style/SecondaryButton" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_history" android:id="@id/nav_history" android:title="@string/drawer_merchant_transactions" />
-    <item android:icon="@drawable/ic_location_pin" android:id="@id/nav_location" android:title="@string/drawer_merchant_location" />
-    <item android:icon="@drawable/ic_dollar" android:id="@id/nav_reports" android:title="@string/drawer_merchant_reports" />
-    <item android:icon="@drawable/ic_contact" android:id="@id/nav_help" android:title="@string/drawer_charger_help" />
-</menu>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@id/card" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/drop_feedback_history_item_view_height" android:foreground="?android:selectableItemBackground"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textSize="16.0sp" android:textColor="@color/veryDarkGray" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-        <TextView android:textSize="16.0sp" android:textColor="@color/veryDarkGray" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:drawableEnd="@drawable/ic_navigate_next" android:layout_alignParentEnd="true" android:drawableTint="@color/darkerGray" />
-    </RelativeLayout>
-</androidx.cardview.widget.CardView>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/recycler_view_item_header" android:textColor="@color/colorPrimary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" style="@style/TextAppearance.AppCompat.Headline" />
-    <TextView android:textColor="@color/darkerGray" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Body1" />
-</LinearLayout>

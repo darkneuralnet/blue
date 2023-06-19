@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="22.0dip" android:width="23.0dip" android:viewportWidth="23.0" android:viewportHeight="22.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="#ff007e9b" android:pathData="M14.69,7.583L21.6,8.645L16.6,13.765L17.78,21L11.6,17.583L5.42,21L6.6,13.765L1.6,8.645L8.51,7.583L11.6,1L14.69,7.583ZM7.831,6.675L10.695,0.575C10.86,0.224 11.212,0 11.6,0C11.988,0 12.341,0.224 12.505,0.575L15.369,6.675L21.752,7.656C22.122,7.713 22.43,7.972 22.549,8.328C22.667,8.683 22.577,9.075 22.316,9.343L17.669,14.103L18.767,20.839C18.829,21.217 18.669,21.597 18.356,21.817C18.043,22.038 17.632,22.06 17.296,21.875L11.6,18.725L5.904,21.875C5.569,22.06 5.157,22.038 4.844,21.817C4.531,21.597 4.371,21.217 4.433,20.839L5.532,14.103L0.885,9.343C0.623,9.075 0.533,8.683 0.652,8.328C0.77,7.972 1.078,7.713 1.448,7.656L7.831,6.675Z" android:fillType="evenOdd" />
-    <path android:fillColor="@drawable/$ic_star_emoji_blue__0" android:pathData="M11.6,1L14.69,7.583L21.6,8.645L16.6,13.765L17.78,21L11.6,17.583L5.42,21L6.6,13.765L1.6,8.645L8.51,7.583L11.6,1Z" />
-    <path android:fillColor="@drawable/$ic_star_emoji_blue__1" android:pathData="M11.6,3.668L14.063,8.891L19.572,9.584L15.586,12.922L16.527,18.571L11.6,15.411L6.673,18.571L7.613,12.922L3.627,9.584L9.136,8.891L11.6,3.668Z" />
-</vector>

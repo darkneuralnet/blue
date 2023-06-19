@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textColor="@color/birdDarkGray1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/reporting_period_uppercased" android:layout_marginStart="15.0dip" style="@style/TextAppearance.Uppercase2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

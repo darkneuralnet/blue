@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/headerImage" android:layout_width="fill_parent" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_bird_in_light" />
-    <TextView android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@id/header" android:paddingTop="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bird_delivery_force_charger_delivery_modal_title" android:textAllCaps="true" style="@style/TextAppearance.AppCompat.Subhead" />
-    <TextView android:textColor="@color/veryDarkGray" android:gravity="center" android:id="@id/mainText" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead" />
-    <Button android:enabled="true" android:textSize="16.0sp" android:id="@id/confirmButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="24.0dip" android:text="@string/charger_onboarding_welcome_dialog_confirm_text" />
-    <TextView android:gravity="center" android:id="@id/negativeButton" android:background="?android:selectableItemBackground" android:padding="16.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bird_delivery_force_charger_delivery_modal_learn_more" android:textAllCaps="true" style="@style/TextAppearance.AppCompat.Subhead" />
-</LinearLayout>

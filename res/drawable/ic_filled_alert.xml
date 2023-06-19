@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#ff002139" android:pathData="M15,20.1329C14.3795,21.2025 13.2365,21.8609 12,21.8609C10.7635,21.8609 9.6205,21.2025 9,20.1329H15Z" android:fillType="evenOdd" />
-    <path android:fillColor="#ff002139" android:pathData="M22,17.1329H2C3.6569,17.1329 5,15.7898 5,14.1329V9.1329C5,5.2669 8.134,2.1329 12,2.1329C15.866,2.1329 19,5.2669 19,9.1329V14.1329C19,15.7898 20.3431,17.1329 22,17.1329Z" android:fillType="evenOdd" />
-    <path android:fillColor="#ff002139" android:pathData="M12,2.7329C8.4654,2.7329 5.6,5.5983 5.6,9.1329V14.1329C5.6,15.055 5.2534,15.896 4.6833,16.5329H19.3167C18.7466,15.896 18.4,15.055 18.4,14.1329V9.1329C18.4,5.5983 15.5346,2.7329 12,2.7329ZM22,16.5329C20.6745,16.5329 19.6,15.4584 19.6,14.1329V9.1329C19.6,4.9356 16.1974,1.5329 12,1.5329C7.8026,1.5329 4.4,4.9356 4.4,9.1329V14.1329C4.4,15.4584 3.3255,16.5329 2,16.5329V17.7329H22V16.5329Z" android:fillType="evenOdd" />
-</vector>

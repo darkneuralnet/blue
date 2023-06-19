@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/banner" android:background="@color/birdNewRoad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/bannerImage" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="16.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_envelope_new" />
-    <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/bannerImage">
-        <TextView android:textColor="@color/white" android:id="@id/bannerTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" style="@style/TextAppearance.NavigationBanner" />
-        <TextView android:textColor="@color/brandAccent" android:id="@id/bannerSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" style="@style/TextAppearance.NavigationBanner" />
-    </LinearLayout>
-</RelativeLayout>

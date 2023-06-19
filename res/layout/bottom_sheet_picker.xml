@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/identification_country_title" style="@style/TextAppearance.Headline" />
-    <View android:background="@color/birdNewRoad" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title" />
-    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" app:fastScrollAutoHide="true" app:fastScrollAutoHideDelay="1500" app:fastScrollPopupBackgroundSize="84.0dip" app:fastScrollPopupBgColor="@color/colorAccent" app:fastScrollPopupPosition="adjacent" app:fastScrollPopupTextColor="@android:color/white" app:fastScrollPopupTextSize="48.0sp" app:fastScrollThumbColor="@color/colorAccent" app:fastScrollTrackColor="@color/white" />
-</RelativeLayout>

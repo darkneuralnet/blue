@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="56.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/icon" android:background="@drawable/route_bg" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="@dimen/activity_horizontal_margin" app:srcCompat="@drawable/ic_filled_check_circle_green" />
-    <TextView android:textColor="@color/primaryText" android:id="@id/route" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Headline" />
-</LinearLayout>

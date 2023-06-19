@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/header" android:hint="@string/header_hint" />
-    <androidx.appcompat.widget.Toolbar android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/header" />
-    <com.google.android.material.bottomnavigation.BottomNavigationView android:theme="@style/Theme.AppCompat" android:layout_width="fill_parent" android:layout_height="wrap_content" app:menu="@menu/test_menu" />
-</LinearLayout>

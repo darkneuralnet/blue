@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@id/headerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="8.0dip" style="@style/TextAppearance.Headline2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

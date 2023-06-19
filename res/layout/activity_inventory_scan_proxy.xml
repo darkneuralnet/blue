@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layoutRoot" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <co.bird.android.widget.OperatorInfoCard android:id="@id/operatorInfoCard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip" android:elevation="2.0dip" app:elevation="2.0dip" app:layout_constraintTop_toTopOf="parent" />
-    <co.bird.android.widget.BlockingEnterLocationView android:id="@id/blockEnterLocationOverlay" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

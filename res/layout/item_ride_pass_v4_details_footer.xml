@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip" style="@style/Divider" />
-    <TextView android:textColor="@color/passiveText" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip" style="@style/TextAppearance.Caption" />
-</LinearLayout>

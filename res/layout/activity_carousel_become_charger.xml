@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Button android:layout_gravity="center_horizontal" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin" android:text="@string/charger_onboarding_start_earning" android:layout_alignParentBottom="true" style="@style/PrimaryButton" />
-    <co.bird.android.app.feature.ridertutorial.widget.CircleIndicatorView android:id="@id/pageIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:layout_above="@id/button" android:layout_centerHorizontal="true" app:fillColor="@color/birdNewRoad" app:pageColor="@color/birdGray" />
-    <co.bird.android.widget.viewpager.parallax.ParallaxViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pageIndicator" />
-    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
-</RelativeLayout>

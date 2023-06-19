@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/id_tool_identify_activity_padding" android:paddingEnd="@dimen/id_tool_identify_activity_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:text="@string/id_tools_identify_vehicle" style="@style/TextAppearance.Caption" />
-    <EditText android:textColor="@color/primaryText" android:textColorHint="@color/darkGray" android:id="@id/code" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/id_tools_enter_code_hint" android:inputType="textCapCharacters" android:imeOptions="actionDone" style="@style/TextAppearance.Headline2" />
-    <TextView android:textColor="@color/red" android:id="@id/instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="@style/TextAppearance.Caption" />
-</LinearLayout>

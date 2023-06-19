@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/thunder" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_thunder" />
-    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" style="@style/TextAppearance.Caption" />
-    <ImageView android:id="@id/info" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="8.0dip" app:srcCompat="@drawable/ic_info" />
-</merge>

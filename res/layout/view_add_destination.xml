@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/actionViewImage" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" app:srcCompat="@drawable/ic_map_drop_pin" />
-    <TextView android:textSize="14.0sp" android:layout_gravity="start" android:id="@id/actionViewTitle" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/destination_action_title" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/actionViewImage" style="@style/TextAppearance.Headline2" />
-    <TextView android:textSize="14.0sp" android:gravity="start" android:id="@id/actionViewSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/destination_action_subtitle" android:layout_below="@id/actionViewTitle" android:layout_marginEnd="16.0dip" android:layout_alignStart="@id/actionViewTitle" style="@style/TextAppearance.Caption" />
-    <View android:id="@id/actionViewDivider" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="12.0dip" android:layout_below="@id/actionViewSubtitle" />
-    <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/actionViewButton" android:background="@color/birdNewRoad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="@string/destination_action_button" android:layout_below="@id/actionViewDivider" style="@style/PrimaryButton" />
-</RelativeLayout>

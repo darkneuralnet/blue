@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="@style/TextAppearance.Uppercase2" android:gravity="center" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SecondaryButton" />
-    <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/battery" android:background="@color/white" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/activity_horizontal_margin" app:layout_constraintBottom_toBottomOf="@id/button" app:layout_constraintEnd_toEndOf="@id/button" app:layout_constraintTop_toTopOf="@id/button">
-        <co.bird.android.widget.BatteryView android:layout_gravity="center_vertical" android:id="@id/batteryPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/batteryLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>

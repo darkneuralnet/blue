@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@id/header" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ride_pass_purchase_screen_details_title" android:paddingHorizontal="32.0dip" style="@style/TextAppearance.Headline2"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

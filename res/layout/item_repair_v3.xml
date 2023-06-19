@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CheckBox android:textColor="@color/primary_text_state_list" android:background="@drawable/ripple_white" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="56.0dip" android:button="@null" android:drawablePadding="12.0dip" android:drawableStart="@drawable/checkbox_work_order_item" android:backgroundTint="@color/repair_v3_background_state_list" android:paddingHorizontal="@dimen/activity_horizontal_margin" style="@style/TextAppearance.Caption"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

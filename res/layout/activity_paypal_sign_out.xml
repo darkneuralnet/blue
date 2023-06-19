@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_paypal_logo" />
-    <TextView android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/emailField" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
-    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <Button android:id="@id/signOutButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" android:text="@string/payment_paypal_sign_out" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:letterSpacing="0.02" style="@style/PrimaryButton" />
-</LinearLayout>

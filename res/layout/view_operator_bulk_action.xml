@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:id="@id/actionRadioButton" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginStart="10.0dip" />
-</androidx.cardview.widget.CardView>

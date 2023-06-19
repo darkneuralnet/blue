@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <group android:checkableBehavior="none">
-        <item android:icon="@drawable/ic_help" android:id="@id/nav_help" android:title="@string/drawer_charger_help" />
-        <item android:icon="@drawable/ic_help" android:id="@id/nav_faq" android:title="@string/menu_faq" />
-        <item android:icon="@drawable/ic_settings" android:id="@id/nav_settings" android:title="@string/drawer_charger_settings" app:actionLayout="@layout/menu_settings" />
-    </group>
-</menu>

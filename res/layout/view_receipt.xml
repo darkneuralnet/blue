@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center_vertical" android:id="@id/receiptTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/ride_summary_receipt_subtitle" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginVertical="12.0dip" style="@style/TextAppearance.Headline2" />
-</merge>

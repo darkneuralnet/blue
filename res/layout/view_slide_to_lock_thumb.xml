@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:layout_width="@dimen/slide_to_unlock_thumb_size" android:layout_height="@dimen/slide_to_unlock_thumb_size">
-        <ProgressBar android:layout_gravity="center" android:id="@id/thumbLoading" android:visibility="gone" android:layout_width="@dimen/slide_to_unlock_thumb_image_size" android:layout_height="@dimen/slide_to_unlock_thumb_image_size" android:indeterminate="true" />
-        <ImageView android:layout_gravity="center" android:id="@id/thumbImage" android:layout_width="@dimen/slide_to_unlock_thumb_image_size" android:layout_height="@dimen/slide_to_unlock_thumb_image_size" android:tint="@color/bird_action_button_outline" app:srcCompat="@drawable/ic_arrow_right_white" />
-    </FrameLayout>
-</merge>

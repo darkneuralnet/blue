@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
-        <include android:id="@id/details" layout="@layout/nest_inventory_details" />
-        <include android:id="@id/vehicles" layout="@layout/nest_inventory_vehicle_list" />
-    </LinearLayout>
-</androidx.core.widget.NestedScrollView>

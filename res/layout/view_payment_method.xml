@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:id="@id/payment" android:background="?android:selectableItemBackground" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/cardIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_credit_card" />
-    <TextView android:textStyle="bold" android:textColor="#ff777777" android:id="@id/cardNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/credit_card_add_placeholder" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/cardIcon" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_navigate_next" />
-</RelativeLayout>

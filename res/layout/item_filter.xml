@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@id/filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_large" android:layout_marginRight="@dimen/activity_horizontal_margin_large" android:layout_marginHorizontal="@dimen/activity_horizontal_margin_large" style="@style/TextAppearance.Caption.Bold"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

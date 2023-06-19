@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:id="@id/analyticsEventRecyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textColor="@color/primaryText" android:gravity="center" android:layout_gravity="center" android:id="@id/analyticsEventDetailName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/TextAppearance.Caption" />
-        <View android:background="@color/birdNewRoad" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_margin="8.0dip" />
-        <LinearLayout android:orientation="vertical" android:id="@id/analyticsEventDetailContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" />
-    </LinearLayout>
-</ScrollView>
