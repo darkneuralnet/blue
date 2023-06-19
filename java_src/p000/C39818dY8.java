@@ -1,5 +1,0 @@
-package p000;
-/* renamed from: dY8  reason: case insensitive filesystem */
-/* loaded from: classes5.dex */
-public final class C39818dY8 {
-}
